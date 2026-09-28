@@ -54,28 +54,58 @@
   {
     "id": "g-2026-05-13-2026-ksiec-spring-meeting-icc-jeju",
     "date": "2026-05-13",
-    "date_label": "2026.05.13~15",
     "title_ko": "2026년 한국공업화학회 춘계 학술대회 @ ICC Jeju",
     "title_en": "2026 KSIEC Spring Meeting @ ICC Jeju",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/fed21e349b09fe89.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/fed21e349b09fe89.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/575e07837ee2a2a1.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/cda01ba3e425a658.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/1a5c6e3f209893ca.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/462c74329490d8be.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-05-13-may-lab-gathering-jeju",
     "date": "2026-05-13",
-    "date_label": "2026.05.13",
     "title_ko": "5월 회식 @Jeju 🏝️",
     "title_en": "May Lab Gathering @ Jeju",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/7188db42543f380f.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/7188db42543f380f.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-05-05-first-nesm-picnic",

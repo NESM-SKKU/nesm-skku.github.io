@@ -275,15 +275,30 @@
   {
     "id": "g-2025-05-28-may-gathering-geurin-s-birthday",
     "date": "2025-05-28",
-    "date_label": "2025.05.28",
     "title_ko": "5월 회식 & 그린 생일💚🥰",
     "title_en": "May Gathering & Geurin's Birthday",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "오랜만에 회식을 했습니다.\nNESM 회식 메뉴는 삼.겹.살🥩\n교수님, 맛있게 잘 먹었습니다!!\n다음날 그린이 생일이어서\n깜짝 케이크 축하를 했답니다. 🍰\n인생네컷도 다같이 찍었는데\n담에는 더 웃기게 찍어요. ^^ㅎ\n마지막은 큐피트 하트(?), 하트깨기(?)중인 교수님💘",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/51ae91d9b6949305.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/51ae91d9b6949305.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/32f01317b88f1c69.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/681be6eefb5d8711.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-05-15-teacher-s-day",

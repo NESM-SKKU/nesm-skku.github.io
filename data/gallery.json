@@ -262,15 +262,40 @@
   {
     "id": "g-2025-07-17-2025-department-summer-workshop",
     "date": "2025-07-17",
-    "date_label": "2025.07.17~18",
     "title_ko": "2025년도 응용화학공학과 하계 워크숍 🌊",
     "title_en": "2025 Department Summer Workshop",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "하계 워크숍에 다녀왔습니다~!\n랩실 소개하는 자리도 있었고,\n포스터 발표로 연구 주제도 소개할 수 있어서\n정말 뜻깊은 시간이었습니다!!🔥\n장기자랑 준비도 열심히 했는데요...^^\n교수님부터 학부생까지 모두 함께 웃고 떠들며\n즐거운 시간 보내고 왔어요 :)\nps. 춤연습 하다가 교수님한테 들킨건 비밀 ㅎ😝",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/c391ac4aa648ea5e.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/c391ac4aa648ea5e.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/67dbf4b55fd0df56.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/79912f6dfac3c4ad.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/85dd350eb106dcf1.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/362f1c3ec2e12c67.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-05-28-may-gathering-geurin-s-birthday",

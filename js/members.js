@@ -66,7 +66,7 @@
     const sections = activeRoles.filter(r => grouped[r]?.length).map(role => {
       const labels = lang === "ko" ? ROLE_LABELS_KO : ROLE_LABELS_EN;
       const cards = grouped[role].map(m => renderCard(m, lang, role)).join("");
-      const openCard = curTab === "current" && ["phd", "ms", "undergraduate"].includes(role) ? renderOpenCard(role, lang) : "";
+      const openCard = "";
       return `
         <section class="member-group">
           <div class="group-head">

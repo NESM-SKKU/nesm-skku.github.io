@@ -626,12 +626,12 @@ html[data-theme="dark"] .scholar-stats .n { color: #8FC0FF; }
 .rcard.reveal.visible { opacity: 1; transform: none; }
 .rcard { display: flex; flex-direction: column; align-items: center; text-align: center; gap: .9rem; padding: 2.2rem 1.25rem 2rem; background: var(--c-surface, #fff); border: 1px solid var(--c-border); border-radius: 16px; box-shadow: 0 6px 24px rgba(0,45,114,.06); transition: transform .35s ease, box-shadow .35s ease, opacity .6s ease; }
 .rcard:hover { transform: translateY(-6px); box-shadow: 0 16px 40px rgba(0,45,114,.14); }
-.rcard-icon { width: 84px; height: 84px; border-radius: 50%; background: var(--cnu-blue-soft); display: grid; place-items: center; color: var(--cnu-blue); }
-.rcard-icon svg { width: 44px; height: 44px; }
+.rcard-icon { width: 100%; max-width: 220px; color: var(--cnu-blue); }
+.rcard-icon svg { width: 100%; height: auto; display: block; }
 .rcard-tag { font-family: 'JetBrains Mono', monospace; font-size: .62rem; letter-spacing: .12em; text-transform: uppercase; color: #fff; background: var(--cnu-blue); padding: .3rem .7rem; border-radius: 999px; }
 .rcard h3 { font-size: 1.1rem; font-weight: 800; letter-spacing: -0.02em; margin: 0; color: var(--c-text); word-break: keep-all; }
 html[data-theme="dark"] .rcard { background: #0F2140; box-shadow: none; }
-html[data-theme="dark"] .rcard-icon { background: #142940; color: #8FC0FF; }
+html[data-theme="dark"] .rcard-icon { color: #8FC0FF; }
 @media (max-width: 900px) { .rcard-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
 @media (max-width: 480px) { .rcard-grid { grid-template-columns: 1fr; } }
 
@@ -701,3 +701,10 @@ html[data-theme="dark"] .news-list li a { background: #0F2140; }
 .footer-v2-brand small { font-weight: 400; font-size: .72rem; opacity: .7; letter-spacing: .04em; }
 .site-footer.footer-v2 .footer-bottom { border-top: 1px solid rgba(255,255,255,.12); padding-top: 1.2rem; font-size: .78rem; color: rgba(255,255,255,.5); }
 @media (max-width: 720px) { .footer-v2-grid { grid-template-columns: 1fr; } }
+
+/* hero v2: NESM initials emphasis */
+.hero.hero-v2 h1.hero-v2-title .cap {
+  background: linear-gradient(120deg, #8FC0FF 0%, #5DCAA5 60%, #F6B42D 100%);
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  font-weight: 900; font-size: 1.12em;
+}

@@ -633,7 +633,7 @@ def main() -> None:
         ("SerpAPI", lambda: try_serpapi(user_id)),
         ("scholarly", lambda: try_scholarly(user_id)),
         ("Playwright Scholar", lambda: try_playwright_scholar(user_id)),
-        ("OpenAlex", lambda: try_openalex(author_name)),
+        # OpenAlex disabled: merges same-name authors and produces wrong totals.
     ]:
         print(f"Trying {name}...")
         result = fn()

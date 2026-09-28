@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install scholarly free-proxy playwright
+          pip install google-search-results scholarly free-proxy playwright
           python -m playwright install --with-deps chromium
 
       - name: Fetch Scholar metrics

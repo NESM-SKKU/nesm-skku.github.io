@@ -414,16 +414,23 @@
     }
     // 403 with rate-limit headers = secondary rate limit hit
     if (put.status === 403) {
+      const remaining = put.headers.get("x-ratelimit-remaining");
       const retryAfter = put.headers.get("retry-after");
-      const resetEpoch = put.headers.get("x-ratelimit-reset");
-      let hint = "GitHub rate limit — 몇 분 기다린 뒤 다시 저장하세요";
-      if (retryAfter) hint = `GitHub rate limit — ${retryAfter}초 뒤 재시도 가능`;
-      else if (resetEpoch) {
-        const ms = (parseInt(resetEpoch) * 1000) - Date.now();
-        if (ms > 0) hint = `GitHub rate limit — ${Math.ceil(ms / 60000)}분 뒤 재시도 가능`;
+      const isRateLimit = remaining === "0" || !!retryAfter;
+      if (isRateLimit) {
+        const resetEpoch = put.headers.get("x-ratelimit-reset");
+        let hint = "GitHub rate limit — 몇 분 기다린 뒤 다시 저장하세요";
+        if (retryAfter) hint = `GitHub rate limit — ${retryAfter}초 뒤 재시도 가능`;
+        else if (resetEpoch) {
+          const ms = (parseInt(resetEpoch) * 1000) - Date.now();
+          if (ms > 0) hint = `GitHub rate limit — ${Math.ceil(ms / 60000)}분 뒤 재시도 가능`;
+        }
+        throw new Error(`RATE_LIMIT: ${hint}`);
       }
-      throw new Error(`RATE_LIMIT: ${hint}`);
+      throw new Error("권한 없음(403): 토큰이 이 저장소를 수정할 수 없습니다. 토큰의 Resource owner가 NESM-SKKU인지, Contents 권한이 Read and write인지 확인하세요.");
     }
+    if (put.status === 401) throw new Error("토큰 인증 실패(401): 토큰이 잘못되었거나 만료되었습니다. 관리자 설정에서 다시 저장하세요.");
+    if (put.status === 404) throw new Error("저장소를 찾을 수 없음(404): 토큰의 Repository access에 nesm-skku.github.io 가 포함되어 있는지 확인하세요.");
     const text = await put.text();
     throw new Error(`GitHub API ${put.status}: ${text.slice(0, 200)}`);
   }

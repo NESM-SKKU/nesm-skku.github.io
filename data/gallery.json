@@ -119,15 +119,20 @@
   {
     "id": "g-2026-03-16-march-lab-gathering",
     "date": "2026-03-16",
-    "date_label": "2026.03.16",
     "title_ko": "3월 회식💙",
     "title_en": "March Lab Gathering",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "새 학기를 시작하며 3월 회식을 했습니다.\n오랜만에 다 같이 저녁식사를 하며\n즐거운 시간을 보냈어요😄\n이번 학기도 다들 파이팅🔥\n(지금까지 먹은 삼겹살 중 1등 ⭐)",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/2c72137553eed7de.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/2c72137553eed7de.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-03-11-interbattery-2026",

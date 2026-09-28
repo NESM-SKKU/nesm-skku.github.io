@@ -314,15 +314,40 @@
   {
     "id": "g-2025-03-31-professor-s-birthday",
     "date": "2025-03-31",
-    "date_label": "2025.03.31",
     "title_ko": "축🎉 교수님 생신 ♥",
     "title_en": "Professor's Birthday",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "다같이 교수님 생신 파티를 했어요!! ❤️🍰\n원래 생신은 4월 3일이지만,\n일정상 조금 앞당겨서 축하해 드렸습니다~!\n오랜만에 다함께 맛있는 점심도 먹고\n즐거운 시간을 보냈습니다. 😊\n교수님, 다시 한번 생신 축하드립니다!🎉\nP.S. 마지막은 교수님이 보내주신 지브리 ver. NESM\n귀엽고 화목한 NESM🥰",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/74a2a8b608a9ec30.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/74a2a8b608a9ec30.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/f2630d7b106e71a7.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/a479d25aa5ea905e.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/7f7afb1de55584ff.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/83bc781db0bb7bd7.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-03-07-interbattery-2025",

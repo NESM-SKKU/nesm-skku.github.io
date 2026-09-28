@@ -516,3 +516,9 @@ html[data-theme="dark"] .site-footer h4 { color: #8FC0FF; }
 .site-header .nav-brand .brand-logo-dark { display: none; }
 html[data-theme="dark"] .site-header .nav-brand .brand-logo-light { display: none; }
 html[data-theme="dark"] .site-header .nav-brand .brand-logo-dark { display: block; }
+
+/* ============================== NAV spacing ============================= */
+@media (min-width: 901px) {
+  .site-header .nav { justify-content: flex-start; gap: var(--space-8, 3rem); }
+  .site-header .nav-right { margin-left: auto; }
+}

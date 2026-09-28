@@ -301,15 +301,30 @@
   {
     "id": "g-2025-04-17-xrd-analysis-seminar",
     "date": "2025-04-17",
-    "date_label": "2025.04.17",
     "title_ko": "XRD 분석기술 세미나",
     "title_en": "XRD Analysis Seminar",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "공동실험실습관에서 주관한\n신규 도입 XRD 분석기술 세미나에 참석했습니다!\n기본적인 XRD의 원리부터 🔬\n이차전지 연구🔋에 적용하는 법까지\n폭넓게 배울 수 있는 유익한 시간이었습니다.\n이번 기회를 토대로\n실험 결과를 더 정확하고 정밀하게 📈\n해석할 수 있도록 노력하겠습니다.*^^*\np.s. 그림이 된 그린이 😅",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/0aa8ab70dc55b8ca.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/0aa8ab70dc55b8ca.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/aa99d41f1de86bbe.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/e2d392e498de9251.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-03-31-professor-s-birthday",

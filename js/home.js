@@ -111,6 +111,20 @@
     `).join("");
   }
 
+  function renderChartUpdated() {
+    const el = document.getElementById("chart-updated");
+    if (!el) return;
+    const m = (SiteUtils.getConfig() || {}).scholar_metrics;
+    const iso = m && m.updated_at;
+    if (!iso) return;
+    const d = new Date(iso);
+    if (isNaN(d)) return;
+    const ko = SiteUtils.getLang() === "ko";
+    const y = d.getFullYear(), mo = String(d.getMonth() + 1).padStart(2, "0"), da = String(d.getDate()).padStart(2, "0");
+    el.textContent = ko ? `Google Scholar 기준 · ${y}.${mo}.${da} 업데이트` : `Source: Google Scholar · Updated ${y}-${mo}-${da}`;
+  }
+  document.addEventListener("scholar:totals", renderChartUpdated);
+
   function renderCitationsChart(history) {
     const host = document.getElementById("citations-chart");
     if (!host) return;
@@ -146,7 +160,9 @@
           <text class="point-label" x="${x(i)}" y="${y(d.n) - 12}">${d.n}</text>
         `).join("")}
       </svg>
+      <div class="chart-updated" id="chart-updated"></div>
     `;
+    renderChartUpdated();
   }
 
   function truncate(s, n) { return s && s.length > n ? s.slice(0, n - 1) + "…" : s; }

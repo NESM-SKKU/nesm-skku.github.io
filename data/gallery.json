@@ -434,15 +434,35 @@
   {
     "id": "g-2025-08-01-the-4th-cnu-su-joint-symposium",
     "date": "2025-08-01",
-    "date_label": "2025.08.01",
     "title_ko": "The 4th CNU-SU Joint symposium",
     "title_en": "The 4th CNU-SU Joint Symposium",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "CNU-SU Joint Symposium에 다녀왔습니다~!🔥\n여러 랩실에서 진행 중인 흥미로운 연구들을\n접할 수 있었고, 저희 연구 주제도 공유할\n기회가 있어서 정말 의미 있는 시간이었습니다!\n심포지엄 전날에는 시즈오카 대학원생 분들과 함께\n삼겹살을🥓 먹고 인생네컷을 찍으며\n한국 문화를 소개하고, 서로 이야기도 나누면서\n즐겁고 뜻깊은 시간을 보냈습니다~ 😆",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/69b73aa707f9ed08.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/69b73aa707f9ed08.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/646a608c1fc2caa9.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/26c9a986c72d35f6.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/f9ef55bd292c2b0c.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-07-17-2025-department-summer-workshop",

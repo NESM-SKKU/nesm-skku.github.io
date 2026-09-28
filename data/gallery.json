@@ -210,15 +210,25 @@
   {
     "id": "g-2025-08-28-august-lab-gathering",
     "date": "2025-08-28",
-    "date_label": "2025.08.28",
     "title_ko": "8월 회식💙",
     "title_en": "August Lab Gathering",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "선배님들의 파견 교육이 끝나고!!\n오랜만에 다같이 모여 회식을 했습니다☺️\n그동안 못다 한 이야기도 하며\n넘 즐거운 시간이었어요\n맛있게 먹어서🐟 배 터지는 줄 알았습니다..^^;👍\n교수님께서 쏘맥 제조해주셨는데\nNo.1 ⭐⭐⭐\n감사합니다 교수님!",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/99605ce2ef924064.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/99605ce2ef924064.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/003a3bf08d7709c9.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-08-20-4th-battery-r-d-trends-forum-dgist",

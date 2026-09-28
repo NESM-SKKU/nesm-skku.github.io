@@ -93,28 +93,48 @@
   {
     "id": "g-2026-04-03-april-lab-gathering-busan",
     "date": "2026-04-03",
-    "date_label": "2026.04.03",
     "title_ko": "4월 회식 @Busan 🐟!!",
     "title_en": "April Lab Gathering @ Busan",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/04651f7062352f09.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/04651f7062352f09.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-04-01-2026-kecs-spring-meeting-bexco",
     "date": "2026-04-01",
-    "date_label": "2026.04.01~03",
     "title_ko": "2026년 전기화학회 춘계 학술발표회 @BEXCO",
     "title_en": "2026 KECS Spring Meeting @ BEXCO",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/52cf7182299fc2c2.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/52cf7182299fc2c2.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/6f94830bff27d6ab.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/92b29c495ddbfaa3.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-03-16-march-lab-gathering",

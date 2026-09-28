@@ -340,15 +340,20 @@
   {
     "id": "g-2025-02-21-first-nesm-gathering",
     "date": "2025-02-21",
-    "date_label": "2025.02.21",
     "title_ko": "NESM 첫 회식🔋💚",
     "title_en": "First NESM Gathering",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "서로의 이야기를 나누며\n서로 돈독해지는 시간이었습니다^^\n앞으로도 자주 회식해요 🔥🥩🔥\n교수님, 항상 감사합니다!",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/b11ac1e93fb4ef1d.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/b11ac1e93fb4ef1d.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2024-08-29-2024-new-faculty-appointment-ceremony",

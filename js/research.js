@@ -19,7 +19,7 @@
       const name = lang === "ko" ? t.title_ko : t.title_en;
       const summary = lang === "ko" ? t.summary_ko : t.summary_en;
       const detail = lang === "ko" ? t.detail_body_ko : t.detail_body_en;
-      const papers = (t.representative_papers || []).slice(0, 3);
+      const papers = [];
       const flip = idx % 2 === 1;
       return `
         <section class="research-snap-section" id="${t.id}">

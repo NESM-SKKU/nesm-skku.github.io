@@ -27,12 +27,13 @@
   document.addEventListener("scholar:papers", (e) => {
     const scholarPapers = e.detail || [];
     if (!pubs.length || !scholarPapers.length) return;
+    const key = t => normalize(t).replace(/ /g, "").slice(0, 40);
     const scholarMap = new Map();
-    scholarPapers.forEach(sp => scholarMap.set(normalize(sp.title), sp));
+    scholarPapers.forEach(sp => scholarMap.set(key(sp.title), sp));
 
     let matched = 0;
     pubs.forEach(p => {
-      const sp = scholarMap.get(normalize(p.title));
+      const sp = scholarMap.get(key(p.title));
       if (sp) {
         if (sp.citations > 0) { p.citations = sp.citations; matched++; }
         if (sp.scholar_link) p.scholar_link = sp.scholar_link;
@@ -52,22 +53,6 @@
 
   function renderFilters(root) {
     const lang = SiteUtils.getLang();
-
-    // Type filter
-    const typeWrap = document.createElement("div");
-    typeWrap.className = "pub-filters";
-    TYPE_FILTERS.forEach(f => {
-      const count = pubs.filter(f.test).length;
-      const btn = document.createElement("button");
-      btn.className = "pub-filter" + (f.id === curType ? " active" : "");
-      btn.innerHTML = `${lang === "ko" ? f.lk_ko : f.lk} <span class="pub-filter-count">${count}</span>`;
-      btn.onclick = () => {
-        curType = f.id;
-        renderAll(root);
-      };
-      typeWrap.appendChild(btn);
-    });
-    root.appendChild(typeWrap);
 
     // Year filter
     const years = [...new Set(pubs.map(p => p.year))].sort((a, b) => b - a);
@@ -121,7 +106,7 @@
   }
 
   function itemHTML(p, n) {
-    const top = p.top_pick ? `<span class="badge-top">Selected</span>` : "";
+    const top = "";
     const href = resolveLink(p);
     const attrs = href.startsWith("data:")
       ? `download="${escapeHtml((typeof p.link === "object" && p.link.name) || "paper.pdf")}"`
@@ -134,7 +119,7 @@
           <div class="title">${titleEl}${top}</div>
           <div class="meta">${escapeHtml(p.authors)} · <span class="venue">${escapeHtml(p.venue)}</span>${p.volume ? ", " + escapeHtml(p.volume) : ""} (${p.year})</div>
         </div>
-        <div class="cite-count"><span class="n">${p.citations ?? 0}</span><span class="lbl">cites</span></div>
+        ${p.citations > 0 ? `<div class="cite-count"><span class="n">${p.citations}</span><span class="lbl">cites</span></div>` : ""}
       </li>`;
   }
 

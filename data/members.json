@@ -80,11 +80,13 @@
     "title_en": "M.S. Student",
     "title_ko": "석사과정",
     "joined": "2026.09",
-    "photo": "",
+    "photo": "assets/images/members/4cb32e4241f9ac52.jpg",
     "email": "leejy5349@skku.edu",
     "summary_ko": "",
     "summary_en": "",
     "tags_en": [],
-    "tags_ko": []
+    "tags_ko": [],
+    "interests_ko": "",
+    "interests_en": ""
   }
 ]

@@ -1,7 +1,112 @@
 [
   {
-    "id": "g-2026-04-01-kecs-spring",
+    "id": "g-2026-07-22-july-lab-gathering",
+    "date": "2026-07-22",
+    "date_label": "2026.07.22",
+    "title_ko": "7월 회식 🔥",
+    "title_en": "July Lab Gathering",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2026-07-14-2026-department-summer-workshop",
+    "date": "2026-07-14",
+    "date_label": "2026.07.14~07.15",
+    "title_ko": "2026년도 응용화학공학과 하계 워크숍",
+    "title_en": "2026 Department Summer Workshop",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2026-05-31-gcim-2026-icc-jeju",
+    "date": "2026-05-31",
+    "date_label": "2026.05.31~06.04",
+    "title_ko": "GCIM 2026 @ ICC Jeju",
+    "title_en": "GCIM 2026 @ ICC Jeju",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2026-05-29-geurin-s-birthday",
+    "date": "2026-05-29",
+    "date_label": "2026.05.29",
+    "title_ko": "💚 그린 생일 💚",
+    "title_en": "Geurin's Birthday",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2026-05-13-2026-ksiec-spring-meeting-icc-jeju",
+    "date": "2026-05-13",
+    "date_label": "2026.05.13~15",
+    "title_ko": "2026년 한국공업화학회 춘계 학술대회 @ ICC Jeju",
+    "title_en": "2026 KSIEC Spring Meeting @ ICC Jeju",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2026-05-13-may-lab-gathering-jeju",
+    "date": "2026-05-13",
+    "date_label": "2026.05.13",
+    "title_ko": "5월 회식 @Jeju 🏝️",
+    "title_en": "May Lab Gathering @ Jeju",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2026-05-05-first-nesm-picnic",
+    "date": "2026-05-05",
+    "date_label": "2026.05.05",
+    "title_ko": "NESM의 첫 피크닉!🌳",
+    "title_en": "First NESM Picnic",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2026-04-03-april-lab-gathering-busan",
+    "date": "2026-04-03",
+    "date_label": "2026.04.03",
+    "title_ko": "4월 회식 @Busan 🐟!!",
+    "title_en": "April Lab Gathering @ Busan",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2026-04-01-2026-kecs-spring-meeting-bexco",
     "date": "2026-04-01",
+    "date_label": "2026.04.01~03",
     "title_ko": "2026년 전기화학회 춘계 학술발표회 @BEXCO",
     "title_en": "2026 KECS Spring Meeting @ BEXCO",
     "summary_ko": "",
@@ -10,77 +115,288 @@
     "body_en": "",
     "cover": "assets/images/gallery/2026-04-01-kecs-spring.jpg",
     "images": [
-      { "src": "assets/images/gallery/2026-04-01-kecs-spring.jpg", "caption_ko": "", "caption_en": "" }
+      {
+        "src": "assets/images/gallery/2026-04-01-kecs-spring.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
     ]
   },
   {
-    "id": "g-2026-03-16-march-gathering",
+    "id": "g-2026-03-16-march-lab-gathering",
     "date": "2026-03-16",
-    "title_ko": "3월 회식",
+    "date_label": "2026.03.16",
+    "title_ko": "3월 회식💙",
     "title_en": "March Lab Gathering",
     "summary_ko": "",
     "summary_en": "",
-    "body_ko": "",
+    "body_ko": "새 학기를 시작하며 3월 회식을 했습니다.\n오랜만에 다 같이 저녁식사를 하며\n즐거운 시간을 보냈어요😄\n이번 학기도 다들 파이팅🔥\n(지금까지 먹은 삼겹살 중 1등 ⭐)",
     "body_en": "",
     "cover": "assets/images/gallery/2026-03-16-march-gathering.jpg",
     "images": [
-      { "src": "assets/images/gallery/2026-03-16-march-gathering.jpg", "caption_ko": "", "caption_en": "" }
+      {
+        "src": "assets/images/gallery/2026-03-16-march-gathering.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
     ]
   },
   {
     "id": "g-2026-03-11-interbattery-2026",
     "date": "2026-03-11",
-    "title_ko": "2026 인터배터리",
+    "date_label": "2026.03.11",
+    "title_ko": "2026 Interbattery🔋",
     "title_en": "Interbattery 2026",
     "summary_ko": "",
     "summary_en": "",
-    "body_ko": "",
+    "body_ko": "2026 인터배터리에 다녀왔습니다!\n배터리 산업의 최신 동향을 직접 확인하고,\n주요 기업들의 기술 방향과 향후 전략을 살펴 볼 수 있는\n뜻깊은 시간이었습니다.💡",
     "body_en": "",
     "cover": "assets/images/gallery/2026-03-11-interbattery-2026.jpg",
     "images": [
-      { "src": "assets/images/gallery/2026-03-11-interbattery-2026.jpg", "caption_ko": "", "caption_en": "" }
+      {
+        "src": "assets/images/gallery/2026-03-11-interbattery-2026.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
     ]
   },
   {
-    "id": "g-2025-12-30-year-end",
-    "date": "2025-12-30",
-    "title_ko": "송년회 및 신입생 환영",
-    "title_en": "Year-end Gathering & New Member Welcome",
+    "id": "g-2026-02-02-february-gathering-jeong-eun-s-birthday",
+    "date": "2026-02-02",
+    "date_label": "2026.02.02",
+    "title_ko": "2월 회식 & 정은 생일🥳💗",
+    "title_en": "February Gathering & Jeong-eun's Birthday",
     "summary_ko": "",
     "summary_en": "",
-    "body_ko": "",
+    "body_ko": "2월 회식을 진행했습니다\n새로운 학부연구생 친구들도 함께하는 자리였는데요!\nNESM 회식 국룰 메뉴인 삼겹살 ㅎㅎ🥩\n또 우리 실험실 방장인 정은이 생일\n서프라이즈 축하도 했답니다🎂",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2026-01-19-frc2-research-day",
+    "date": "2026-01-19",
+    "date_label": "2026.01.19~20",
+    "title_ko": "🧪 FRC2 Research Day",
+    "title_en": "FRC2 Research Day",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "BK 사업에서 주관한 FRC2 Reseach Day에 다녀왔어요!\n각 랩실이 서로의 연구를 공유할 수 있는 뜻깊은 자리였고,\n다른 랩실 학생분들과 교류하며 새로운 자극과 배움을\n얻을 수 있어 더욱 의미있었습니다.💡\n1박 2일 동안 우리 랩실 멤버들과도\n즐거운 추억도 많이 만들 수 있었어요😊\n(지나가다가 꿩 앞에서 찍은 사진 ㅎㅎ🐦)",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2026-01-14-undergraduate-research-day",
+    "date": "2026-01-14",
+    "date_label": "2026.01.14",
+    "title_ko": "Undergraduate Research Day🔍",
+    "title_en": "Undergraduate Research Day",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "응용화학공학과에서 진행하는\n동계 워크샵에 다녀왔어요!\n저희 실험실 소개 하는 시간을 가지며,\n캡스톤 디자인 포스터 발표도 진행했습니다~!\n발표를 마무리하며 교수님께서 시를 한 편 읽어주셨는데,\n가장 인상 깊었습니다..👍\n많은 학부생 친구들이 저희 랩실에 관심을 가져줘서\n더욱 뿌듯하고 의미 있는 하루였습니다 🩷",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2025-12-30-2025-year-end-party",
+    "date": "2025-12-30",
+    "date_label": "2025.12.30",
+    "title_ko": "⭐2025년 송년회⭐",
+    "title_en": "2025 Year-end Party",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "2025년을 마무리 하며\n랩실 전체 회식을 진행했습니다!\n이번 회식에는 26년 신입생들도 함께 참석하여\n더욱 새롭고 뜻깊은 자리였는데요😚\n2025년 한 해를 함께 달려온 교수님\n그리고 랩실 멤버들 모두 수고 많으셨고,\n다가올 2026년을 함께할 새로운 인연들도 진심으로 환영합니다✨\n앞으로 열심히 연구🧪하며 좋은 추억 많이 만들어가요!",
     "body_en": "",
     "cover": "assets/images/gallery/2025-12-30-year-end.jpg",
     "images": [
-      { "src": "assets/images/gallery/2025-12-30-year-end.jpg", "caption_ko": "", "caption_en": "" }
+      {
+        "src": "assets/images/gallery/2025-12-30-year-end.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
     ]
   },
   {
-    "id": "g-2025-05-28-may-gathering",
-    "date": "2025-05-28",
-    "title_ko": "5월 회식 및 생일 축하",
-    "title_en": "May Lab Gathering & Birthday Celebration",
+    "id": "g-2025-09-20-september-lab-gathering",
+    "date": "2025-09-20",
+    "date_label": "2025.09.20",
+    "title_ko": "9월 회식💜",
+    "title_en": "September Lab Gathering",
     "summary_ko": "",
     "summary_en": "",
-    "body_ko": "",
+    "body_ko": "랩미팅 후 점심 회식을 했어요☀️\n맛있는 식사와 함께 웃음😀이\n가득했던 시간이었습니다!\n다들 열심히 발표했던 만큼\n후식까지 푸파🍨🔥\n남은 9월도 다같이 파이팅해요\n(교수님 최애 음식 샤브샤브 확인 ㅎㅎ)\n♥️♥️",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2025-08-28-august-lab-gathering",
+    "date": "2025-08-28",
+    "date_label": "2025.08.28",
+    "title_ko": "8월 회식💙",
+    "title_en": "August Lab Gathering",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "선배님들의 파견 교육이 끝나고!!\n오랜만에 다같이 모여 회식을 했습니다☺️\n그동안 못다 한 이야기도 하며\n넘 즐거운 시간이었어요\n맛있게 먹어서🐟 배 터지는 줄 알았습니다..^^;👍\n교수님께서 쏘맥 제조해주셨는데\nNo.1 ⭐⭐⭐\n감사합니다 교수님!",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2025-08-20-4th-battery-r-d-trends-forum-dgist",
+    "date": "2025-08-20",
+    "date_label": "2025.08.20",
+    "title_ko": "제4회 이차전지 최신 연구 개발 동향 토론회 @ DGIST",
+    "title_en": "4th Battery R&D Trends Forum @ DGIST",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "이번 토론회에 참석하여\n각 랩실에서 진행 중인 연구 주제를 접할 수 있었고,\n앞으로의 이차전지 연구 방향에 대한\n교수님들의 고견을 들을 수 있는\n뜻깊은 시간이었습니다. 🔥\n또한, 같은 이차전지를 연구하는 여러 대학의 학생들과\n교류할 수 있는 기회가 되어 의미가 있었으며,\n최신 연구 개발 동향에 발맞추어\n제 연구도 발전시켜야겠다는 다짐을 하게 되었습니다!⚡",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2025-08-06-2025-neutron-diffraction-summer-school",
+    "date": "2025-08-06",
+    "date_label": "2025.08.06~07",
+    "title_ko": "2025년도 중성자회절 여름학교",
+    "title_en": "2025 Neutron Diffraction Summer School",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "한국원자력연구원에서 진행한\n중성자회절 여름학교에 다녀왔습니다!\n소재 연구에 있어 필수적인 X-선 분말 회절과\n중성자분말 회절에 대한 기초를 학습할 수 있었고,\n특히, 결정 구조 분석 실습을 직접 해보며\n실질적인 도움이 되었던 교육이었습니다!!👍",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2025-08-01-the-4th-cnu-su-joint-symposium",
+    "date": "2025-08-01",
+    "date_label": "2025.08.01",
+    "title_ko": "The 4th CNU-SU Joint symposium",
+    "title_en": "The 4th CNU-SU Joint Symposium",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "CNU-SU Joint Symposium에 다녀왔습니다~!🔥\n여러 랩실에서 진행 중인 흥미로운 연구들을\n접할 수 있었고, 저희 연구 주제도 공유할\n기회가 있어서 정말 의미 있는 시간이었습니다!\n심포지엄 전날에는 시즈오카 대학원생 분들과 함께\n삼겹살을🥓 먹고 인생네컷을 찍으며\n한국 문화를 소개하고, 서로 이야기도 나누면서\n즐겁고 뜻깊은 시간을 보냈습니다~ 😆",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2025-07-17-2025-department-summer-workshop",
+    "date": "2025-07-17",
+    "date_label": "2025.07.17~18",
+    "title_ko": "2025년도 응용화학공학과 하계 워크숍 🌊",
+    "title_en": "2025 Department Summer Workshop",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "하계 워크숍에 다녀왔습니다~!\n랩실 소개하는 자리도 있었고,\n포스터 발표로 연구 주제도 소개할 수 있어서\n정말 뜻깊은 시간이었습니다!!🔥\n장기자랑 준비도 열심히 했는데요...^^\n교수님부터 학부생까지 모두 함께 웃고 떠들며\n즐거운 시간 보내고 왔어요 :)\nps. 춤연습 하다가 교수님한테 들킨건 비밀 ㅎ😝",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2025-05-28-may-gathering-geurin-s-birthday",
+    "date": "2025-05-28",
+    "date_label": "2025.05.28",
+    "title_ko": "5월 회식 & 그린 생일💚🥰",
+    "title_en": "May Gathering & Geurin's Birthday",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "오랜만에 회식을 했습니다.\nNESM 회식 메뉴는 삼.겹.살🥩\n교수님, 맛있게 잘 먹었습니다!!\n다음날 그린이 생일이어서\n깜짝 케이크 축하를 했답니다. 🍰\n인생네컷도 다같이 찍었는데\n담에는 더 웃기게 찍어요. ^^ㅎ\n마지막은 큐피트 하트(?), 하트깨기(?)중인 교수님💘",
     "body_en": "",
     "cover": "assets/images/gallery/2025-05-28-may-gathering.jpg",
     "images": [
-      { "src": "assets/images/gallery/2025-05-28-may-gathering.jpg", "caption_ko": "", "caption_en": "" }
+      {
+        "src": "assets/images/gallery/2025-05-28-may-gathering.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
     ]
+  },
+  {
+    "id": "g-2025-05-15-teacher-s-day",
+    "date": "2025-05-15",
+    "date_label": "2025.05.15",
+    "title_ko": "스승의 날 🌹",
+    "title_en": "Teacher's Day",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "깜짝 서프라이즈 해드리려고\n다같이 연습했지만\n막상 실전에서 얼렁뚱땅..\n그래도 교수님께서 좋아해주셔서\n넘 뿌듯^_^✌️ 했습니다.\n첫 스승의 날 축하드려요🎉\n항상 감사하고 존경합니다 교수님!😍",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2025-04-17-xrd-analysis-seminar",
+    "date": "2025-04-17",
+    "date_label": "2025.04.17",
+    "title_ko": "XRD 분석기술 세미나",
+    "title_en": "XRD Analysis Seminar",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "공동실험실습관에서 주관한\n신규 도입 XRD 분석기술 세미나에 참석했습니다!\n기본적인 XRD의 원리부터 🔬\n이차전지 연구🔋에 적용하는 법까지\n폭넓게 배울 수 있는 유익한 시간이었습니다.\n이번 기회를 토대로\n실험 결과를 더 정확하고 정밀하게 📈\n해석할 수 있도록 노력하겠습니다.*^^*\np.s. 그림이 된 그린이 😅",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2025-03-31-professor-s-birthday",
+    "date": "2025-03-31",
+    "date_label": "2025.03.31",
+    "title_ko": "축🎉 교수님 생신 ♥",
+    "title_en": "Professor's Birthday",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "다같이 교수님 생신 파티를 했어요!! ❤️🍰\n원래 생신은 4월 3일이지만,\n일정상 조금 앞당겨서 축하해 드렸습니다~!\n오랜만에 다함께 맛있는 점심도 먹고\n즐거운 시간을 보냈습니다. 😊\n교수님, 다시 한번 생신 축하드립니다!🎉\nP.S. 마지막은 교수님이 보내주신 지브리 ver. NESM\n귀엽고 화목한 NESM🥰",
+    "body_en": "",
+    "cover": "",
+    "images": []
   },
   {
     "id": "g-2025-03-07-interbattery-2025",
     "date": "2025-03-07",
-    "title_ko": "인터배터리 2025",
+    "date_label": "2025.03.07",
+    "title_ko": "Interbattery 2025 ❗",
     "title_en": "Interbattery 2025",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "인터배터리 2025에 다녀왔습니다! 🔋\n이번 박람회를 통해 배터리 산업의\n최신 트렌드와 기업들의 전략을 직접 확인할 수 있었고,\n다양한 기술과 기업들을 보며 평소 궁금했던 점들을\n해결할 수 있었습니다. 👍💡\n또, 배터리 기술이 빠르게 발전하고 있음을 실감했으며,\n이번 경험을 통해 더 깊이 배우고 노력해야겠다는\n동기부여가 되었습니다!...📚\n랩실 멤버들과 함께 뜻깊은 시간을 보낼 수 있어\n더욱 즐거운 경험이었어요~~~!😊",
+    "body_en": "",
+    "cover": "assets/images/gallery/2025-03-07-interbattery-2025.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/2025-03-07-interbattery-2025.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
+  },
+  {
+    "id": "g-2025-02-21-first-nesm-gathering",
+    "date": "2025-02-21",
+    "date_label": "2025.02.21",
+    "title_ko": "NESM 첫 회식🔋💚",
+    "title_en": "First NESM Gathering",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "서로의 이야기를 나누며\n서로 돈독해지는 시간이었습니다^^\n앞으로도 자주 회식해요 🔥🥩🔥\n교수님, 항상 감사합니다!",
+    "body_en": "",
+    "cover": "",
+    "images": []
+  },
+  {
+    "id": "g-2024-08-29-2024-new-faculty-appointment-ceremony",
+    "date": "2024-08-29",
+    "date_label": "2024.08.29",
+    "title_ko": "2024학년도 충남대학교 신임교원 임명장 수여식",
+    "title_en": "2024 New Faculty Appointment Ceremony",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "",
     "body_en": "",
-    "cover": "assets/images/gallery/2025-03-07-interbattery-2025.jpg",
-    "images": [
-      { "src": "assets/images/gallery/2025-03-07-interbattery-2025.jpg", "caption_ko": "", "caption_en": "" }
-    ]
+    "cover": "",
+    "images": []
   }
 ]

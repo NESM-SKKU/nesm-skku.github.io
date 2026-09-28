@@ -1,4 +1,4 @@
-/* Gallery list page — 3-column grid with cover + short description */
+/* Gallery page — chronological timeline: date, title, caption, photos (newest first) */
 (function () {
   "use strict";
 
@@ -22,25 +22,38 @@
       return;
     }
     const sorted = items.slice().sort((a, b) => (a.date < b.date ? 1 : -1));
-    root.innerHTML = `<div class="gallery-grid">${
-      sorted.map(g => {
-        const title = lang === "ko" ? (g.title_ko || g.title_en) : (g.title_en || g.title_ko);
-        const summary = lang === "ko" ? (g.summary_ko || g.summary_en) : (g.summary_en || g.summary_ko);
-        const cover = g.cover || ((g.images && g.images[0] && g.images[0].src) || "");
-        return `
-          <a class="gallery-card" href="gallery-detail.html?id=${encodeURIComponent(g.id)}">
-            <div class="gallery-cover">
-              ${cover ? `<img src="${escapeAttr(cover)}" alt="${escapeAttr(title || "")}" loading="lazy" />` : `<div class="gallery-cover-placeholder">EEML</div>`}
-            </div>
-            <div class="gallery-card-body">
-              ${g.date ? `<div class="gallery-date">${escapeHtml(g.date)}</div>` : ""}
-              <h3 class="gallery-title">${escapeHtml(title || "")}</h3>
-              ${summary ? `<p class="gallery-summary">${escapeHtml(summary)}</p>` : ""}
-              <div class="gallery-cta">${(i18n?.gallery?.read_more) || "Read more →"}</div>
-            </div>
-          </a>`;
-      }).join("")
-    }</div>`;
+
+    let html = "";
+    let curYear = "";
+    sorted.forEach(g => {
+      const year = (g.date || "").slice(0, 4);
+      if (year && year !== curYear) {
+        curYear = year;
+        html += `<h2 class="tl-year">${escapeHtml(year)}</h2>`;
+      }
+      const title = lang === "ko" ? (g.title_ko || g.title_en) : (g.title_en || g.title_ko);
+      const body = lang === "ko" ? (g.body_ko || g.summary_ko || g.body_en || g.summary_en)
+                                 : (g.body_en || g.summary_en || g.body_ko || g.summary_ko);
+      const dateLabel = g.date_label || (g.date || "").replace(/-/g, ".");
+      const imgs = (g.images || []).filter(im => im && im.src);
+      const photos = imgs.length ? `<div class="tl-photos tl-photos-${Math.min(imgs.length, 3)}">${
+        imgs.map((im, i) => {
+          const cap = lang === "ko" ? (im.caption_ko || im.caption_en) : (im.caption_en || im.caption_ko);
+          return `<figure class="tl-photo">
+            <a href="gallery-detail.html?id=${encodeURIComponent(g.id)}&i=${i}"><img src="${escapeAttr(im.src)}" alt="${escapeAttr(cap || title || "")}" loading="lazy" /></a>
+            ${cap ? `<figcaption>${escapeHtml(cap)}</figcaption>` : ""}
+          </figure>`;
+        }).join("")
+      }</div>` : "";
+      html += `
+        <article class="tl-entry" id="${escapeAttr(g.id)}">
+          <div class="tl-date">${escapeHtml(dateLabel)}</div>
+          <h3 class="tl-title">${escapeHtml(title || "")}</h3>
+          ${body ? `<p class="tl-body">${escapeHtml(body)}</p>` : ""}
+          ${photos}
+        </article>`;
+    });
+    root.innerHTML = `<div class="tl">${html}</div>`;
   }
 
   function escapeHtml(s) { return String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]); }

@@ -1,0 +1,53 @@
+{
+  "lab": {
+    "name_en": "Next-generation Energy Storage Materials Lab",
+    "name_ko": "차세대 에너지 저장 소재 연구실",
+    "short": "NESM",
+    "tagline_en": "Advanced cathode materials, single-crystal systems, and next-generation batteries.",
+    "tagline_ko": "고성능 양극소재 · 단결정 시스템 · 차세대 전지 연구",
+    "affiliation_en": "Department of Battery Engineering, Sungkyunkwan University",
+    "affiliation_ko": "성균관대학교 배터리학과",
+    "hero_image": ""
+  },
+  "pi": {
+    "name_en": "Hoon-Hee Ryu",
+    "name_ko": "류훈희",
+    "title_en": "Assistant Professor",
+    "title_ko": "조교수",
+    "email": "hhryu@skku.edu",
+    "scholar": "https://scholar.google.com/citations?user=3pg8AjQAAAAJ&hl=ko",
+    "openalex_ids": [
+      "A5112620578",
+      "A5035439306"
+    ]
+  },
+  "metrics": {
+    "citations_total": 0,
+    "citations_recent5y": 0,
+    "h_index": 0,
+    "i10_index": 0,
+    "as_of": "2026-04"
+  },
+  "contact": {
+    "email": "hhryu@skku.edu",
+    "address_ko": "(16419) 경기도 수원시 장안구 서부로 2066, 성균관대학교 자연과학캠퍼스",
+    "address_en": "2066 Seobu-ro, Jangan-gu, Suwon 16419, Republic of Korea (Natural Sciences Campus)",
+    "address_detail_ko": "배터리학과 · 기초학문관 51106호",
+    "address_detail_en": "Department of Battery Engineering · Basic Sciences Bldg. (Bldg. 51), Room 51106",
+    "phone": "031-299-6258",
+    "maps_embed": "https://www.google.com/maps?q=%EC%84%B1%EA%B7%A0%EA%B4%80%EB%8C%80%ED%95%99%EA%B5%90+%EC%9E%90%EC%97%B0%EA%B3%BC%ED%95%99%EC%BA%A0%ED%8D%BC%EC%8A%A4&output=embed"
+  },
+  "social": {
+    "scholar": "https://scholar.google.com/citations?user=3pg8AjQAAAAJ&hl=ko",
+    "researchgate": "",
+    "orcid": "",
+    "linkedin": "",
+    "github": ""
+  },
+  "recruiting": {
+    "active": true,
+    "message_en": "I'm looking for highly motivated graduate students and undergraduates passionate about next-generation battery materials.",
+    "message_ko": "차세대 이차전지 소재 연구에 열정이 있는 대학원생과 학부연구원을 상시 모집합니다."
+  },
+  "citations_history": []
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "g-2026-04-01-kecs-spring",
+    "date": "2026-04-01",
+    "title_ko": "2026년 전기화학회 춘계 학술발표회 @BEXCO",
+    "title_en": "2026 KECS Spring Meeting @ BEXCO",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "assets/images/gallery/2026-04-01-kecs-spring.jpg",
+    "images": [
+      { "src": "assets/images/gallery/2026-04-01-kecs-spring.jpg", "caption_ko": "", "caption_en": "" }
+    ]
+  },
+  {
+    "id": "g-2026-03-16-march-gathering",
+    "date": "2026-03-16",
+    "title_ko": "3월 회식",
+    "title_en": "March Lab Gathering",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "assets/images/gallery/2026-03-16-march-gathering.jpg",
+    "images": [
+      { "src": "assets/images/gallery/2026-03-16-march-gathering.jpg", "caption_ko": "", "caption_en": "" }
+    ]
+  },
+  {
+    "id": "g-2026-03-11-interbattery-2026",
+    "date": "2026-03-11",
+    "title_ko": "2026 인터배터리",
+    "title_en": "Interbattery 2026",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "assets/images/gallery/2026-03-11-interbattery-2026.jpg",
+    "images": [
+      { "src": "assets/images/gallery/2026-03-11-interbattery-2026.jpg", "caption_ko": "", "caption_en": "" }
+    ]
+  },
+  {
+    "id": "g-2025-12-30-year-end",
+    "date": "2025-12-30",
+    "title_ko": "송년회 및 신입생 환영",
+    "title_en": "Year-end Gathering & New Member Welcome",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "assets/images/gallery/2025-12-30-year-end.jpg",
+    "images": [
+      { "src": "assets/images/gallery/2025-12-30-year-end.jpg", "caption_ko": "", "caption_en": "" }
+    ]
+  },
+  {
+    "id": "g-2025-05-28-may-gathering",
+    "date": "2025-05-28",
+    "title_ko": "5월 회식 및 생일 축하",
+    "title_en": "May Lab Gathering & Birthday Celebration",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "assets/images/gallery/2025-05-28-may-gathering.jpg",
+    "images": [
+      { "src": "assets/images/gallery/2025-05-28-may-gathering.jpg", "caption_ko": "", "caption_en": "" }
+    ]
+  },
+  {
+    "id": "g-2025-03-07-interbattery-2025",
+    "date": "2025-03-07",
+    "title_ko": "인터배터리 2025",
+    "title_en": "Interbattery 2025",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "assets/images/gallery/2025-03-07-interbattery-2025.jpg",
+    "images": [
+      { "src": "assets/images/gallery/2025-03-07-interbattery-2025.jpg", "caption_ko": "", "caption_en": "" }
+    ]
+  }
+]

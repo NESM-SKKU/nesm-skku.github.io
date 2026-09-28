@@ -1,0 +1,39 @@
+name: Update Scholar Citations
+
+on:
+  schedule:
+    - cron: '0 18 * * *'   # daily 03:00 KST (UTC+9)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install scholarly free-proxy playwright
+          python -m playwright install --with-deps chromium
+
+      - name: Fetch Scholar metrics
+        run: python scripts/update_scholar.py
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        # Strategy chain: SerpAPI (if key set) -> scholarly+proxy -> Playwright Scholar -> OpenAlex
+        # If all fail, script exits 0 and preserves existing data.
+
+      - name: Commit if changed
+        run: |
+          git config user.name "scholar-bot"
+          git config user.email "scholar-bot@users.noreply.github.com"
+          git add data/scholar_metrics.json
+          git diff --staged --quiet || git commit -m "chore: update scholar citations"
+          git push

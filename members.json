@@ -1,0 +1,86 @@
+[
+  {
+    "id": "pi-hoonhee-ryu",
+    "role": "professor",
+    "name_en": "Hoon-Hee Ryu",
+    "name_ko": "류훈희",
+    "title_en": "Principal Investigator · Assistant Professor",
+    "title_ko": "책임연구자 · 조교수",
+    "joined": "",
+    "photo": "assets/images/pi/hoon-hee-ryu.jpg",
+    "email": "hhryu@skku.edu",
+    "summary_ko": "Ni-rich 층상 양극, 단결정 · 농도구배 양극, 차세대 이차전지 소재.",
+    "summary_en": "Ni-rich layered cathodes, single-crystal and concentration-gradient architectures, next-generation battery materials.",
+    "tags_en": [
+      "Ni-rich Cathode",
+      "Single Crystal",
+      "Next-gen Battery"
+    ],
+    "tags_ko": [
+      "Ni-rich 양극",
+      "단결정",
+      "차세대 전지"
+    ],
+    "scholar_link": "https://scholar.google.com/citations?user=3pg8AjQAAAAJ&hl=ko"
+  },
+  {
+    "id": "ms-jeong-eun-kim",
+    "role": "ms",
+    "name_en": "Jeong Eun Kim",
+    "name_ko": "김정은",
+    "title_en": "M.S. Student (2026.03 – )",
+    "title_ko": "석사과정 (2026.03 – )",
+    "joined": "2026.03",
+    "photo": "",
+    "email": "rla5377@skku.edu",
+    "summary_ko": "성균관대학교 배터리학과",
+    "summary_en": "Department of Battery Engineering, Sungkyunkwan University",
+    "tags_en": [],
+    "tags_ko": []
+  },
+  {
+    "id": "ms-geurin-kim",
+    "role": "ms",
+    "name_en": "Geurin Kim",
+    "name_ko": "김그린",
+    "title_en": "M.S. Student (2026.03 – )",
+    "title_ko": "석사과정 (2026.03 – )",
+    "joined": "2026.03",
+    "photo": "",
+    "email": "green529@skku.edu",
+    "summary_ko": "성균관대학교 배터리학과",
+    "summary_en": "Department of Battery Engineering, Sungkyunkwan University",
+    "tags_en": [],
+    "tags_ko": []
+  },
+  {
+    "id": "ms-hyeon-su-park",
+    "role": "ms",
+    "name_en": "Hyeon-Su Park",
+    "name_ko": "박현수",
+    "title_en": "M.S. Student (2026.03 – )",
+    "title_ko": "석사과정 (2026.03 – )",
+    "joined": "2026.03",
+    "photo": "",
+    "email": "gustn0040@skku.edu",
+    "summary_ko": "성균관대학교 배터리학과",
+    "summary_en": "Department of Battery Engineering, Sungkyunkwan University",
+    "tags_en": [],
+    "tags_ko": []
+  },
+  {
+    "id": "ms-jae-yeong-lee",
+    "role": "ms",
+    "name_en": "Jae Yeong Lee",
+    "name_ko": "이재영",
+    "title_en": "M.S. Student (2026.03 – )",
+    "title_ko": "석사과정 (2026.03 – )",
+    "joined": "2026.03",
+    "photo": "assets/images/members/jae-yeong-lee.jpg",
+    "email": "leejy5349@skku.edu",
+    "summary_ko": "성균관대학교 배터리학과",
+    "summary_en": "Department of Battery Engineering, Sungkyunkwan University",
+    "tags_en": [],
+    "tags_ko": []
+  }
+]

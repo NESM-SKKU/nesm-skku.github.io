@@ -710,7 +710,7 @@ html[data-theme="dark"] .news-list li a { background: #0F2140; }
 }
 
 /* ============================== PI profile (Team > Professor tab) ======= */
-.pi-profile { max-width: 860px; margin: 0 auto; }
+.pi-profile { max-width: none; margin: 0; }
 .pi-profile-head { display: grid; grid-template-columns: 200px 1fr; gap: 2.2rem; align-items: start; margin-bottom: 2.5rem; }
 .pi-profile-photo { width: 200px; height: 240px; object-fit: cover; border-radius: 14px; border: 1px solid var(--c-border); }
 .pi-profile-name { font-size: 1.8rem; font-weight: 800; letter-spacing: -0.02em; margin: .2rem 0 .4rem; }

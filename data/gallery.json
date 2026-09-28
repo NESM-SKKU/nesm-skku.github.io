@@ -132,15 +132,20 @@
   {
     "id": "g-2026-03-11-interbattery-2026",
     "date": "2026-03-11",
-    "date_label": "2026.03.11",
     "title_ko": "2026 Interbattery🔋",
     "title_en": "Interbattery 2026",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "2026 인터배터리에 다녀왔습니다!\n배터리 산업의 최신 동향을 직접 확인하고,\n주요 기업들의 기술 방향과 향후 전략을 살펴 볼 수 있는\n뜻깊은 시간이었습니다.💡",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/296fee7c50f1ca4a.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/296fee7c50f1ca4a.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-02-02-february-gathering-jeong-eun-s-birthday",

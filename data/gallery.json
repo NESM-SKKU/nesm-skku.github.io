@@ -171,15 +171,30 @@
   {
     "id": "g-2026-01-14-undergraduate-research-day",
     "date": "2026-01-14",
-    "date_label": "2026.01.14",
     "title_ko": "Undergraduate Research Day🔍",
     "title_en": "Undergraduate Research Day",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "응용화학공학과에서 진행하는\n동계 워크샵에 다녀왔어요!\n저희 실험실 소개 하는 시간을 가지며,\n캡스톤 디자인 포스터 발표도 진행했습니다~!\n발표를 마무리하며 교수님께서 시를 한 편 읽어주셨는데,\n가장 인상 깊었습니다..👍\n많은 학부생 친구들이 저희 랩실에 관심을 가져줘서\n더욱 뿌듯하고 의미 있는 하루였습니다 🩷",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/d79a7e004384b886.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/d79a7e004384b886.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/6ca35400e2e93726.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/ecab8f6bbfa25692.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-12-30-2025-year-end-party",

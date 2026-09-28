@@ -1,5 +1,38 @@
 [
   {
+    "id": "g-1790585500535",
+    "date": "2026-08-30",
+    "title_ko": "실험실 이사 to SKKU",
+    "title_en": "",
+    "summary_ko": "좋은 일만 가득하길 🍀",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "assets/images/gallery/477cb00371aa4f46.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/477cb00371aa4f46.jpg",
+        "caption_ko": "충남대 실험실 마지막 모습 (1)",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/ca1efb10585d17a5.jpg",
+        "caption_ko": "충남대 실험실 마지막 모습 (2)",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/a1f211b5928bb59b.jpg",
+        "caption_ko": "성균관대 이사 완료!!",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/9a3d1ecb0aa21fbf.jpg",
+        "caption_ko": "이사 기념 중국집 배달~",
+        "caption_en": ""
+      }
+    ]
+  },
+  {
     "id": "g-2026-07-22-july-lab-gathering",
     "date": "2026-07-22",
     "title_ko": "7월 회식 🔥",

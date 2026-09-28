@@ -125,8 +125,8 @@
   function renderPI(lang) {
     const p = piData;
     if (!p) return "";
-    const ko = lang === "ko";
-    const name = ko ? `${p.name_ko} (${p.name_en})` : `Prof. ${p.name_en}`;
+    const ko = false; // profile is always shown in English (per request); only the name keeps Korean
+    const name = lang === "ko" ? `${p.name_ko} (Prof. ${p.name_en})` : `Prof. ${p.name_en}`;
     const pos = `${ko ? p.title_ko : p.title_en}, ${ko ? p.affiliation_ko : p.affiliation_en}`;
     const emails = (p.emails || [p.email]).filter(Boolean);
     const edu = (p.education || []).map(e => `<li><span class="pi-period">${escapeHtml(e.period)}</span><span>${escapeHtml(ko ? `${e.institution_ko} ${e.field_ko} ${e.degree_ko}` : `${e.degree_en} in ${e.field_en}, ${e.institution_en}`)}${e.advisor ? ` <em>(Advisor: ${escapeHtml(e.advisor)})</em>` : ""}</span></li>`).join("");
@@ -147,9 +147,9 @@
             </ul>
           </div>
         </div>
-        ${edu ? `<h3 class="pi-section">${ko ? "학력" : "Education"}</h3><ul class="pi-list">${edu}</ul>` : ""}
-        ${exp ? `<h3 class="pi-section">${ko ? "경력" : "Professional Experience"}</h3><ul class="pi-list">${exp}</ul>` : ""}
-        ${awards ? `<h3 class="pi-section">${ko ? "수상" : "Award"}</h3><ul class="pi-list">${awards}</ul>` : ""}
+        ${edu ? `<h3 class="pi-section">Education</h3><ul class="pi-list">${edu}</ul>` : ""}
+        ${exp ? `<h3 class="pi-section">Professional Experience</h3><ul class="pi-list">${exp}</ul>` : ""}
+        ${awards ? `<h3 class="pi-section">Award</h3><ul class="pi-list">${awards}</ul>` : ""}
       </section>`;
   }
 

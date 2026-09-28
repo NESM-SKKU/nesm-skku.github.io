@@ -28,15 +28,40 @@
   {
     "id": "g-2026-05-31-gcim-2026-icc-jeju",
     "date": "2026-05-31",
-    "date_label": "2026.05.31~06.04",
     "title_ko": "GCIM 2026 @ ICC Jeju",
     "title_en": "GCIM 2026 @ ICC Jeju",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/890ffe68d53ea009.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/890ffe68d53ea009.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/31c8f32aa39459a1.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/30bd807390b8caa2.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/e4b449466b8e92b1.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/db2fefe0786cd9bd.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-05-29-geurin-s-birthday",

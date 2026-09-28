@@ -1,9 +1,9 @@
 {
   "name_en": "Hoon-Hee Ryu",
   "name_ko": "류훈희",
-  "title_en": "Ph.D., Assistant Professor",
+  "title_en": "Assistant Professor",
   "title_ko": "조교수",
-  "affiliation_en": "Department of Battery Engineering, Sungkyunkwan University",
+  "affiliation_en": "Dept. of Battery Science and Engineering, Sungkyunkwan University, Suwon, Korea",
   "affiliation_ko": "성균관대학교 배터리학과",
   "email": "hhryu@skku.edu",
   "photo": "assets/images/pi/hoon-hee-ryu.jpg",
@@ -34,7 +34,7 @@
   ],
   "education": [
     {
-      "period": "2016–2022",
+      "period": "2016.03 – 2022.08",
       "degree_ko": "박사",
       "degree_en": "Ph.D.",
       "field_ko": "에너지공학",
@@ -44,7 +44,7 @@
       "advisor": "Prof. Yang-Kook Sun"
     },
     {
-      "period": "2012–2016",
+      "period": "2012.03 – 2016.02",
       "degree_ko": "학사",
       "degree_en": "B.S.",
       "field_ko": "에너지공학",
@@ -56,23 +56,23 @@
   "experience": [
     {
       "period_ko": "2026.09 – 현재",
-      "period_en": "2026.09 – Present",
+      "period_en": "Sep.2026 – Current",
       "role_ko": "조교수",
       "role_en": "Assistant Professor",
       "org_ko": "성균관대학교 배터리학과",
-      "org_en": "Sungkyunkwan University · Dept. of Battery Engineering"
+      "org_en": "Dept. of Battery Science and Engineering, Sungkyunkwan University"
     },
     {
       "period_ko": "2024.09 – 2026.08",
-      "period_en": "2024.09 – 2026.08",
+      "period_en": "Sep.2024 – Aug.2026",
       "role_ko": "조교수",
       "role_en": "Assistant Professor",
       "org_ko": "충남대학교 응용화학공학과",
-      "org_en": "Chungnam National University · Dept. of Applied Chemical Engineering"
+      "org_en": "Chungnam National University"
     },
     {
       "period_ko": "2023.09 – 2024.08",
-      "period_en": "2023.09 – 2024.08",
+      "period_en": "Sep.2023 – Aug.2024",
       "role_ko": "박사후연구원",
       "role_en": "Post-doctoral Researcher",
       "org_ko": "로렌스 버클리 국립연구소",
@@ -80,7 +80,7 @@
     },
     {
       "period_ko": "2022.09 – 2023.08",
-      "period_en": "2022.09 – 2023.08",
+      "period_en": "Sep.2022 – Aug.2023",
       "role_ko": "박사후연구원",
       "role_en": "Post-doctoral Researcher",
       "org_ko": "한양대학교",
@@ -119,5 +119,12 @@
     "h_index": 0,
     "i10_index": 0,
     "as_of": "2026-04"
-  }
+  },
+  "phone": "+82-31-299-6258",
+  "emails": [
+    "hhryu@skku.edu",
+    "hhryu@g.skku.edu"
+  ],
+  "address_ko": "경기 수원시 장안구 서부로 2066 기초학문관 51106호",
+  "address_en": "Basic Sciences Bldg. Room 51106, 2066 Seobu-ro, Jangan-gu, Suwon, Korea"
 }

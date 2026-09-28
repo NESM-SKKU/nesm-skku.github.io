@@ -1,7 +1,7 @@
 /* Member page — Current / Alumni tabs */
 (function () {
   "use strict";
-  const CURRENT_ROLES = ["professor", "postdoc", "phd", "ms", "undergraduate"];
+  const CURRENT_ROLES = ["postdoc", "phd", "ms", "undergraduate"];
   const ALUMNI_ROLES = ["alumni"];
   const ROLE_LABELS_EN = {
     professor: "Principal Investigator",
@@ -21,13 +21,15 @@
   };
 
   let allMembers = [];
-  let curTab = "current";
+  let piData = null;
+  let curTab = "pi";
 
   document.addEventListener("site:ready", async () => {
     const root = document.getElementById("members-root");
     if (!root) return;
     try {
-      allMembers = await SiteUtils.loadJSON("data/members.json");
+      [allMembers, piData] = await Promise.all([SiteUtils.loadJSON("data/members.json"), SiteUtils.loadJSON("data/pi.json").catch(() => null)]);
+      if (location.hash === "#current") curTab = "current";
       render(root);
     } catch (err) { console.error(err); }
   });
@@ -39,6 +41,9 @@
 
     const tabs = `
       <div class="member-tabs">
+        <button class="member-tab ${curTab === "pi" ? "active" : ""}" data-tab="pi">
+          ${lang === "ko" ? "교수" : "Professor"}
+        </button>
         <button class="member-tab ${curTab === "current" ? "active" : ""}" data-tab="current">
           ${lang === "ko" ? "현재 구성원" : "Current"} <span class="member-tab-count">${currentCount}</span>
         </button>
@@ -48,6 +53,11 @@
       </div>
     `;
 
+    if (curTab === "pi") {
+      root.innerHTML = tabs + renderPI(lang);
+      root.querySelectorAll(".member-tab").forEach(btn => { btn.onclick = () => { curTab = btn.dataset.tab; render(root); }; });
+      return;
+    }
     const activeRoles = curTab === "current" ? CURRENT_ROLES : ALUMNI_ROLES;
     const filtered = allMembers.filter(m => activeRoles.includes(m.role));
     const grouped = {};
@@ -110,6 +120,37 @@
         ${tags.length ? `<div class="tags">${tags.map(t => `<span class="tag-mini">${escapeHtml(t)}</span>`).join("")}</div>` : ""}
         ${m.email ? `<div class="email-row"><a href="mailto:${m.email}">✉ ${m.email}</a></div>` : ""}
       </${tag}>`;
+  }
+
+  function renderPI(lang) {
+    const p = piData;
+    if (!p) return "";
+    const ko = lang === "ko";
+    const name = ko ? `${p.name_ko} (${p.name_en})` : `Prof. ${p.name_en}`;
+    const pos = `${ko ? p.title_ko : p.title_en}, ${ko ? p.affiliation_ko : p.affiliation_en}`;
+    const emails = (p.emails || [p.email]).filter(Boolean);
+    const edu = (p.education || []).map(e => `<li><span class="pi-period">${escapeHtml(e.period)}</span><span>${escapeHtml(ko ? `${e.institution_ko} ${e.field_ko} ${e.degree_ko}` : `${e.degree_en} in ${e.field_en}, ${e.institution_en}`)}${e.advisor ? ` <em>(Advisor: ${escapeHtml(e.advisor)})</em>` : ""}</span></li>`).join("");
+    const exp = (p.experience || []).map(e => `<li><span class="pi-period">${escapeHtml(ko ? e.period_ko : e.period_en)}</span><span>${escapeHtml(ko ? `${e.org_ko} ${e.role_ko}` : `${e.role_en}, ${e.org_en}`)}</span></li>`).join("");
+    const awards = (p.awards || []).map(a => `<li><span class="pi-period">${escapeHtml(String(a.year))}</span><span>${escapeHtml(ko ? `${a.title_ko}, ${a.org_ko}` : `${a.title_en}, ${a.org_en}`)}</span></li>`).join("");
+    return `
+      <section class="pi-profile">
+        <div class="pi-profile-head">
+          ${p.photo ? `<img class="pi-profile-photo" src="${escapeAttr(p.photo)}" alt="${escapeAttr(p.name_en)}" />` : ""}
+          <div>
+            <h2 class="pi-profile-name">${escapeHtml(name)}</h2>
+            <p class="pi-profile-pos">${escapeHtml(pos)}</p>
+            <ul class="pi-profile-contact">
+              ${p.phone ? `<li><span>Tel</span>${escapeHtml(p.phone)}</li>` : ""}
+              ${emails.length ? `<li><span>Email</span>${emails.map(e => `<a href="mailto:${escapeAttr(e)}">${escapeHtml(e)}</a>`).join(", ")}</li>` : ""}
+              ${(p.address_ko || p.address_en) ? `<li><span>Address</span>${escapeHtml(ko ? p.address_ko : p.address_en)}</li>` : ""}
+              ${p.links && p.links.length ? `<li><span>Links</span>${p.links.map(l => `<a href="${escapeAttr(l.url)}" target="_blank" rel="noopener">${escapeHtml(l.label)} ↗</a>`).join(" · ")}</li>` : ""}
+            </ul>
+          </div>
+        </div>
+        ${edu ? `<h3 class="pi-section">${ko ? "학력" : "Education"}</h3><ul class="pi-list">${edu}</ul>` : ""}
+        ${exp ? `<h3 class="pi-section">${ko ? "경력" : "Professional Experience"}</h3><ul class="pi-list">${exp}</ul>` : ""}
+        ${awards ? `<h3 class="pi-section">${ko ? "수상" : "Award"}</h3><ul class="pi-list">${awards}</ul>` : ""}
+      </section>`;
   }
 
   function renderOpenCard(role, lang) {

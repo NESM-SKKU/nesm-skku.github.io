@@ -15,15 +15,25 @@
   {
     "id": "g-2026-07-14-2026-department-summer-workshop",
     "date": "2026-07-14",
-    "date_label": "2026.07.14~07.15",
     "title_ko": "2026년도 응용화학공학과 하계 워크숍",
     "title_en": "2026 Department Summer Workshop",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/8fb9a295579f718d.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/8fb9a295579f718d.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/df8aabb5f61b33d3.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-05-31-gcim-2026-icc-jeju",

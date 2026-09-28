@@ -742,3 +742,7 @@ html[data-theme="dark"] .pi-section { color: #8FC0FF; border-color: #8FC0FF; }
 .citations-chart-wrap .citations-chart { padding-top: 5.5rem; }
 .scholar-stats.overlay { top: 1.6rem; left: 2.5rem; }
 @media (max-width: 720px) { .citations-chart-wrap .citations-chart { padding-top: var(--space-8); } }
+
+/* highly cited badge */
+.badge-hc { display: inline-block; margin-left: .55rem; vertical-align: middle; font-family: var(--font-sans-kr); font-size: .7rem; font-weight: 700; letter-spacing: .02em; color: #8A4B00; background: #FFF1D6; border: 1px solid #F6B42D; border-radius: 999px; padding: .15rem .55rem; white-space: nowrap; }
+html[data-theme="dark"] .badge-hc { color: #F6B42D; background: rgba(246,180,45,.12); }

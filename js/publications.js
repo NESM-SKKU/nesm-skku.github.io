@@ -106,7 +106,7 @@
   }
 
   function itemHTML(p, n) {
-    const top = "";
+    const top = p.highly_cited ? `<span class="badge-hc" title="Web of Science Highly Cited Paper">Highly Cited Paper</span>` : "";
     const href = resolveLink(p);
     const attrs = href.startsWith("data:")
       ? `download="${escapeHtml((typeof p.link === "object" && p.link.name) || "paper.pdf")}"`

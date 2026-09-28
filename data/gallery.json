@@ -353,14 +353,19 @@
   {
     "id": "g-2024-08-29-2024-new-faculty-appointment-ceremony",
     "date": "2024-08-29",
-    "date_label": "2024.08.29",
     "title_ko": "2024학년도 충남대학교 신임교원 임명장 수여식",
     "title_en": "2024 New Faculty Appointment Ceremony",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/4bc58bdde18776d8.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/4bc58bdde18776d8.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   }
 ]

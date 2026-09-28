@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css?v=20260928a" />
-  <link rel="stylesheet" href="css/hero-cnu.css?v=20260928f" />
+  <link rel="stylesheet" href="css/hero-cnu.css?v=20260928i" />
 </head>
 <body>
 
@@ -37,157 +37,116 @@
 </header>
 
 <main>
-  <section class="hero hero-cnu">
-    <div class="hero-inner">
-      <div class="hero-eyebrow">NESM Lab &middot; Sungkyunkwan University</div>
-      <h1 class="hero-title-ko" lang="ko">
-        <span class="line">에너지 저장의 한계를 <span class="accent">다시</span> 쓴다</span>
-      </h1>
-      <h1 class="hero-title-en" lang="en" style="display:none">
-        <span class="line">Rewriting the limits of <span class="accent">energy storage</span></span>
-      </h1>
-      <p class="hero-fullname">
-        <span class="fullname-en">Next-generation Energy Storage Materials Lab</span>
-        <span class="fullname-ko">차세대 에너지 저장 소재 연구실</span>
-      </p>
-    </div>
-    <div class="hero-scroll-hint" aria-hidden="true">
-      <span>Scroll</span>
-      <svg width="14" height="22" viewBox="0 0 14 22" fill="none" stroke="currentColor"><rect x="1" y="1" width="12" height="20" rx="6"/><line x1="7" y1="6" x2="7" y2="10" stroke-width="2"/></svg>
-    </div>
-  </section>
-
-  <section class="section about-pi reveal">
-    <div class="container">
-      <div class="pi-inline">
-        <a href="pi.html" class="pi-inline-photo" aria-label="PI 소개로 이동">
-          <img src="assets/images/pi/hoon-hee-ryu.jpg" alt="류훈희 교수" />
-        </a>
-        <div class="pi-inline-text">
-          <div class="eyebrow" data-i18n="member.professor">Principal Investigator</div>
-          <h2><span data-pi-name>류훈희</span></h2>
-          <p class="pi-inline-title">Assistant Professor · <span data-lab-affiliation>성균관대학교 배터리학과</span></p>
-          <p class="pi-inline-bio">
-            Ni-rich 층상 양극·단결정 구조·농도구배 설계 분야에서
-            <strong>Nature Energy</strong> · <strong>Chemical Reviews</strong> · <strong>Materials Today</strong> 등
-            최상위 저널에 다수 논문을 발표해 온 연구자. 현재 성균관대학교 배터리학과 NESM Lab 에서
-            차세대 이차전지 소재 연구를 이끌고 있습니다.
-          </p>
-          <div class="pi-inline-actions">
-            <a href="https://scholar.google.com/citations?user=3pg8AjQAAAAJ&hl=ko" class="btn btn-ghost" target="_blank" rel="noopener">Google Scholar ↗</a>
-            <a href="mailto:hhryu@skku.edu" class="btn btn-ghost">hhryu@skku.edu</a>
-          </div>
-        </div>
+  <section class="hero hero-v2">
+    <div class="hero-v2-inner">
+      <div class="hero-v2-text">
+        <div class="hero-v2-univ"><img src="assets/images/skku-symbol.png" alt="" /><span data-i18n="home.univ">성균관대학교</span></div>
+        <h1 class="hero-v2-title">Next-generation<br /><span class="accent">Energy Storage</span><br />Materials Lab</h1>
+        <p class="hero-v2-sub" lang="ko">성균관대학교 배터리학과 차세대 에너지 저장 소재 연구실</p>
+        <p class="hero-v2-sub" lang="en" style="display:none">Department of Battery Engineering, Sungkyunkwan University</p>
+        <div class="hero-v2-scroll" aria-hidden="true"><span></span><em>Scroll</em></div>
+      </div>
+      <div class="hero-v2-art" aria-hidden="true">
+        <svg viewBox="0 0 520 420" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="slab" x1="0" x2="1"><stop offset="0" stop-color="#8FC0FF" stop-opacity=".15"/><stop offset=".5" stop-color="#8FC0FF" stop-opacity=".9"/><stop offset="1" stop-color="#8FC0FF" stop-opacity=".15"/></linearGradient>
+          </defs>
+          <g class="slabs">
+            <rect x="20" y="70" width="480" height="6" rx="3" fill="url(#slab)"/>
+            <rect x="20" y="150" width="480" height="6" rx="3" fill="url(#slab)"/>
+            <rect x="20" y="230" width="480" height="6" rx="3" fill="url(#slab)"/>
+            <rect x="20" y="310" width="480" height="6" rx="3" fill="url(#slab)"/>
+          </g>
+          <g class="ions">
+            <circle class="ion i1" cy="113" r="12" fill="#1D9E75"/>
+            <circle class="ion i2" cy="193" r="9" fill="#5DCAA5"/>
+            <circle class="ion i3" cy="273" r="7" fill="#9FE1CB"/>
+            <circle class="ion i4" cy="113" r="6" fill="#9FE1CB"/>
+            <circle class="ion i5" cy="273" r="10" fill="#1D9E75"/>
+            <circle class="ion i6" cy="193" r="5" fill="#5DCAA5"/>
+          </g>
+        </svg>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section home-research">
     <div class="container">
-      <div class="section-title">
-        <div class="eyebrow">What we work on</div>
-        <h2>Research.</h2>
-        <p>배터리 소재 합성·분석, 열화 메커니즘 규명, 고성능 양극, 차세대 전지 — 네 축으로 탄소중립과 지속 가능한 에너지 미래에 기여합니다.</p>
+      <div class="section-title center">
+        <div class="eyebrow">Our research</div>
+        <h2>Research Overview</h2>
       </div>
-      <div id="home-topics" class="topic-grid"></div>
-      <div class="text-center mt-12">
-        <a href="research.html" class="btn btn-ghost" data-i18n="home.view_all">전체 보기 →</a>
+      <div id="home-topics" class="rcard-grid"></div>
+    </div>
+  </section>
+
+  <section class="section home-news-gal">
+    <div class="container">
+      <div class="section-title center">
+        <div class="eyebrow">NESM News</div>
+        <h2>Latest News</h2>
+      </div>
+      <div class="news-gal-grid">
+        <ul class="news-list" id="home-news"></ul>
+        <div class="gal-slider" id="home-gallery"></div>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section home-pubs">
     <div class="container">
-      <div class="section-title">
-        <div class="eyebrow">Who we are</div>
-        <h2>Team.</h2>
-        <p>NESM Lab을 함께 만들어가는 구성원들입니다.</p>
+      <div class="section-title center light">
+        <div class="eyebrow">Publications</div>
+        <h2>Recent Publications</h2>
       </div>
-      <div id="home-team" class="team-grid"></div>
-      <div class="text-center mt-12">
-        <a href="member.html" class="btn btn-ghost">전체 구성원 →</a>
+      <div class="pub-slider-wrap">
+        <button class="pub-nav prev" aria-label="previous">&larr;</button>
+        <div class="pub-slider" id="home-pubs"></div>
+        <button class="pub-nav next" aria-label="next">&rarr;</button>
       </div>
+      <div class="text-center mt-8"><a href="publications.html" class="btn btn-light" data-i18n="home.all_pubs">All publications →</a></div>
     </div>
   </section>
 
-  <section class="section" style="background: var(--c-surface-2);">
+  <section class="section home-citations">
     <div class="container">
-      <div class="section-title">
-        <div class="eyebrow">Selected work</div>
-        <h2>Recent publications.</h2>
-      </div>
-      <div id="home-featured" class="featured-grid"></div>
-      <div class="text-center mt-12">
-        <a href="publications.html" class="btn btn-ghost">All publications →</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="section-title">
+      <div class="section-title center">
         <div class="eyebrow">Citations growth</div>
-        <h2>Impact over time.</h2>
-        <p>Citations per year, sourced from Google Scholar.</p>
+        <h2>Impact over time</h2>
       </div>
-      <div class="scholar-stats">
+      <div class="scholar-stats center">
         <div class="stat"><div class="n" data-metric="citations_total">0</div><div class="lbl">Citations</div></div>
         <div class="stat"><div class="n" data-metric="h_index">0</div><div class="lbl">h-index</div></div>
       </div>
       <div class="citations-chart" id="citations-chart"></div>
     </div>
   </section>
-
-
-  <section class="section">
-    <div class="container-narrow">
-      <div class="join-card">
-        <h3 data-i18n="contact.join_us_title">Join NESM Lab</h3>
-        <p data-i18n="contact.join_us_desc">차세대 이차전지 소재 연구에 진지한 관심이 있는 분을 환영합니다.</p>
-        <a href="contact.html" class="btn btn-primary">Get in touch ↗</a>
-      </div>
-    </div>
-  </section>
 </main>
 
-<footer class="site-footer">
+<footer class="site-footer footer-v2">
   <div class="container">
-    <div class="footer-grid">
+    <div class="footer-v2-grid">
       <div>
-        <h4 data-lab-short>NESM</h4>
-        <p data-lab-name>Next-generation Energy Storage Materials Lab</p>
-        <p data-lab-affiliation>Sungkyunkwan University</p>
-      </div>
-      <div>
-        <h4>Sitemap</h4>
-        <ul>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="member.html">Team</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>External</h4>
-        <ul>
-          <li><a href="https://scholar.google.com/citations?user=3pg8AjQAAAAJ&hl=ko" target="_blank" rel="noopener">Google Scholar ↗</a></li>
-          <li><a href="https://www.skku.edu/" target="_blank" rel="noopener">SKKU ↗</a></li>
-        </ul>
+        <h4>Address</h4>
+        <p data-contact-address></p>
+        <p data-contact-address-detail></p>
       </div>
       <div>
         <h4>Contact</h4>
-        <ul>
-          <li><a href="mailto:" data-contact-email></a></li>
-          <li><a href="contact.html">Visit us</a></li>
-        </ul>
+        <p><a href="mailto:" data-contact-email></a></p>
+        <p><a href="https://scholar.google.com/citations?user=3pg8AjQAAAAJ&hl=ko" target="_blank" rel="noopener">Google Scholar ↗</a></p>
+      </div>
+      <div class="footer-v2-brand">
+        <img src="assets/images/skku-symbol.png" alt="SKKU" />
+        <span>성균관대학교<br /><small>Sungkyunkwan University</small></span>
       </div>
     </div>
-    <div class="footer-bottom" data-i18n="footer.copyright">© 2026 NESM Lab · Sungkyunkwan University.</div>
+    <div class="footer-bottom" data-i18n="footer.copyright"></div>
   </div>
 </footer>
 
 <script src="js/main.js?v=20260421a"></script>
-<script src="js/home.js?v=20260928d"></script>
+<script src="js/home.js?v=20260928g"></script>
 <script>
   document.addEventListener("site:ready", function(){
     var lang = window.SiteUtils && SiteUtils.getLang();

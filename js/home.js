@@ -3,17 +3,18 @@
   "use strict";
 
   document.addEventListener("site:ready", async () => {
+    const lang = SiteUtils.getLang();
+    document.querySelectorAll(".hero-v2-sub").forEach(el => { el.style.display = (el.getAttribute("lang") === lang) ? "" : "none"; });
     try {
-      const [topics, pubs, news, members] = await Promise.all([
+      const [topics, pubs, gallery] = await Promise.all([
         SiteUtils.loadJSON("data/research_topics.json"),
         SiteUtils.loadJSON("data/publications.json"),
-        SiteUtils.loadJSON("data/news.json"),
-        SiteUtils.loadJSON("data/members.json")
+        SiteUtils.loadJSON("data/gallery.json")
       ]);
       renderTopics(topics);
-      renderTeam(members);
-      renderFeatured(pubs);
-      renderNews(news);
+      renderNewsFromGallery(gallery);
+      renderGallerySlider(gallery);
+      renderPubSlider(pubs);
       renderCitationsChart(SiteUtils.getConfig().citations_history || []);
     } catch (err) { console.error(err); }
   });
@@ -68,19 +69,85 @@
     const host = document.getElementById("home-topics");
     if (!host) return;
     const lang = SiteUtils.getLang();
-    host.innerHTML = topics.sort((a, b) => a.order - b.order).map(t => {
-      const name = lang === "ko" ? t.title_ko : t.title_en;
-      const desc = lang === "ko" ? t.summary_ko : t.summary_en;
+    host.innerHTML = topics.sort((a, b) => a.order - b.order).map((t, i) => {
+      const raw = lang === "ko" ? t.title_ko : t.title_en;
+      const name = lang === "ko" ? raw.replace(/\s*\(.*\)\s*$/, "") : raw;
       return `
-        <a class="topic-card" href="research.html#${t.id}">
-          <div class="topic-svg">${t.svg || ""}</div>
+        <a class="rcard reveal" style="transition-delay:${i * 90}ms" href="research.html#${t.id}">
+          <div class="rcard-icon">${t.svg || ""}</div>
+          <div class="rcard-tag">Research 0${i + 1}</div>
           <h3>${escapeHtml(name)}</h3>
-          <p>${escapeHtml(desc)}</p>
-          <div class="keywords">${(t.keywords || []).map(k => `<span class="kw">${escapeHtml(k)}</span>`).join("")}</div>
-          <div class="topic-cta">${lang === "ko" ? "자세히 보기 →" : "Read more →"}</div>
-        </a>
-      `;
+        </a>`;
     }).join("");
+    host.querySelectorAll(".reveal").forEach(el => {
+      if (window.SiteUtils && SiteUtils.observeReveal) SiteUtils.observeReveal(el); else el.classList.add("visible");
+    });
+  }
+
+  function renderNewsFromGallery(items) {
+    const host = document.getElementById("home-news");
+    if (!host) return;
+    const lang = SiteUtils.getLang();
+    const sorted = [...items].sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, 3);
+    host.innerHTML = sorted.map(g => {
+      const title = lang === "ko" ? (g.title_ko || g.title_en) : (g.title_en || g.title_ko);
+      const body = lang === "ko" ? (g.body_ko || g.body_en) : (g.body_en || g.body_ko);
+      const [y, m, d] = (g.date || "").split("-");
+      const cover = g.cover || (g.images && g.images[0] && g.images[0].src) || "";
+      return `
+        <li>
+          <a href="gallery.html#${encodeURIComponent(g.id)}">
+            <div class="news-date"><b>${escapeHtml(d || "")}</b><span>${escapeHtml(y || "")}.${escapeHtml(m || "")}</span></div>
+            <div class="news-text"><h4>${escapeHtml(title || "")}</h4>${body ? `<p>${escapeHtml(truncate(body.replace(/\n+/g, " "), 70))}</p>` : ""}</div>
+            ${cover ? `<div class="news-thumb"><img src="${escapeAttr(cover)}" alt="" loading="lazy" /></div>` : ""}
+          </a>
+        </li>`;
+    }).join("");
+  }
+
+  function renderGallerySlider(items) {
+    const host = document.getElementById("home-gallery");
+    if (!host) return;
+    const lang = SiteUtils.getLang();
+    const withImg = [...items].filter(g => g.cover || (g.images && g.images.length))
+      .sort((a, b) => (a.date < b.date ? 1 : -1)).slice(0, 5);
+    if (!withImg.length) {
+      host.innerHTML = `<a class="gal-slide gal-empty" href="gallery.html"><div class="gal-badge">Gallery</div><div class="gal-cap"><b>${lang === "ko" ? "연구실 사진 보기" : "View lab photos"}</b></div></a>`;
+      return;
+    }
+    host.innerHTML = withImg.map((g, i) => {
+      const title = lang === "ko" ? (g.title_ko || g.title_en) : (g.title_en || g.title_ko);
+      const src = g.cover || g.images[0].src;
+      return `<a class="gal-slide${i === 0 ? " active" : ""}" href="gallery.html#${encodeURIComponent(g.id)}">
+        <img src="${escapeAttr(src)}" alt="" loading="lazy" />
+        <div class="gal-badge">Gallery</div>
+        <div class="gal-cap"><b>${escapeHtml(title || "")}</b><span>${escapeHtml(g.date || "")}</span></div>
+      </a>`;
+    }).join("") + `<div class="gal-dots">${withImg.map((_, i) => `<i${i === 0 ? ' class="on"' : ""}></i>`).join("")}</div>`;
+    const slides = host.querySelectorAll(".gal-slide"), dots = host.querySelectorAll(".gal-dots i");
+    let cur = 0;
+    const go = n => { slides[cur].classList.remove("active"); dots[cur].classList.remove("on"); cur = (n + slides.length) % slides.length; slides[cur].classList.add("active"); dots[cur].classList.add("on"); };
+    dots.forEach((d, i) => d.addEventListener("click", () => go(i)));
+    if (slides.length > 1) setInterval(() => go(cur + 1), 4500);
+  }
+
+  function renderPubSlider(pubs) {
+    const host = document.getElementById("home-pubs");
+    if (!host) return;
+    const list = [...pubs].sort((a, b) => (b.year - a.year)).slice(0, 8);
+    host.innerHTML = list.map(p => {
+      const href = p.doi ? `https://doi.org/${p.doi}` : (p.link || "publications.html");
+      return `<a class="pub-card" href="${escapeAttr(href)}" ${p.doi || p.link ? 'target="_blank" rel="noopener"' : ""}>
+        <div class="pub-year">${p.year}</div>
+        <h3>${escapeHtml(p.title)}</h3>
+        <p><em>${escapeHtml(p.venue || "")}</em>${p.volume ? `, ${escapeHtml(p.volume)}` : ""}</p>
+        <p class="pub-authors">${escapeHtml(truncate(p.authors || "", 120))}</p>
+      </a>`;
+    }).join("");
+    const wrap = host.parentElement;
+    const step = () => (host.querySelector(".pub-card")?.offsetWidth || 320) + 24;
+    wrap.querySelector(".pub-nav.prev")?.addEventListener("click", () => host.scrollBy({ left: -step(), behavior: "smooth" }));
+    wrap.querySelector(".pub-nav.next")?.addEventListener("click", () => host.scrollBy({ left: step(), behavior: "smooth" }));
   }
 
   function renderFeatured(pubs) {

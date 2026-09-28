@@ -158,15 +158,25 @@
   {
     "id": "g-2026-01-19-frc2-research-day",
     "date": "2026-01-19",
-    "date_label": "2026.01.19~20",
     "title_ko": "🧪 FRC2 Research Day",
     "title_en": "FRC2 Research Day",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "BK 사업에서 주관한 FRC2 Reseach Day에 다녀왔어요!\n각 랩실이 서로의 연구를 공유할 수 있는 뜻깊은 자리였고,\n다른 랩실 학생분들과 교류하며 새로운 자극과 배움을\n얻을 수 있어 더욱 의미있었습니다.💡\n1박 2일 동안 우리 랩실 멤버들과도\n즐거운 추억도 많이 만들 수 있었어요😊\n(지나가다가 꿩 앞에서 찍은 사진 ㅎㅎ🐦)",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/0153661359e81b90.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/0153661359e81b90.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/7ed0c9b8603151d7.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-01-14-undergraduate-research-day",

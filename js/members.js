@@ -102,7 +102,7 @@
       ? `<img class="photo" src="${escapeAttr(m.photo)}" alt="${escapeAttr(nameEn || nameKo)}" onerror="this.outerHTML='<div class=photo>${escapeAttr(initials(nameEn || nameKo))}</div>'" />`
       : `<div class="photo">${escapeHtml(initials(nameEn || nameKo))}</div>`;
 
-    const joinedLine = m.joined ? `<span class="joined">since ${escapeHtml(m.joined)}</span>` : "";
+    const joinedLine = m.joined ? `<span class="joined">${escapeHtml(m.joined)} –</span>` : "";
 
     const anchorId = isPI ? `id="pi"` : `id="m-${escapeAttr(m.id)}"`;
     return `

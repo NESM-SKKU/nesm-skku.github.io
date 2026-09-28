@@ -725,3 +725,10 @@ html[data-theme="dark"] .pi-section { color: #8FC0FF; border-color: #8FC0FF; }
 .pi-list .pi-period { font-family: 'JetBrains Mono', monospace; font-size: .8rem; color: var(--c-text-muted); padding-top: .15rem; }
 .pi-list em { color: var(--c-text-muted); font-style: normal; }
 @media (max-width: 640px) { .pi-profile-head, .pi-list li { grid-template-columns: 1fr; } .pi-profile-photo { width: 160px; height: 192px; } }
+
+/* member cards: readable text, no mono */
+.member-card .name-ko { font-size: 1.25rem; font-weight: 800; }
+.member-card .name-en { font-family: var(--font-sans-kr); font-size: .95rem; color: var(--c-text-light); letter-spacing: 0; }
+.member-card .role-line { font-family: var(--font-sans-kr); font-size: .98rem; color: var(--c-text); letter-spacing: 0; }
+.member-card .role-line .joined { font-family: var(--font-sans-kr); font-size: .98rem; }
+.member-card .email-row { font-family: var(--font-sans-kr); font-size: .95rem; letter-spacing: 0; }

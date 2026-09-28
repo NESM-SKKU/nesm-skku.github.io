@@ -145,15 +145,20 @@
   {
     "id": "g-2026-02-02-february-gathering-jeong-eun-s-birthday",
     "date": "2026-02-02",
-    "date_label": "2026.02.02",
     "title_ko": "2월 회식 & 정은 생일🥳💗",
     "title_en": "February Gathering & Jeong-eun's Birthday",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "2월 회식을 진행했습니다\n새로운 학부연구생 친구들도 함께하는 자리였는데요!\nNESM 회식 국룰 메뉴인 삼겹살 ㅎㅎ🥩\n또 우리 실험실 방장인 정은이 생일\n서프라이즈 축하도 했답니다🎂",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/56a9f573445a7b34.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/56a9f573445a7b34.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-01-19-frc2-research-day",

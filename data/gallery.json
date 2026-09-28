@@ -288,15 +288,20 @@
   {
     "id": "g-2025-05-15-teacher-s-day",
     "date": "2025-05-15",
-    "date_label": "2025.05.15",
     "title_ko": "스승의 날 🌹",
     "title_en": "Teacher's Day",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "깜짝 서프라이즈 해드리려고\n다같이 연습했지만\n막상 실전에서 얼렁뚱땅..\n그래도 교수님께서 좋아해주셔서\n넘 뿌듯^_^✌️ 했습니다.\n첫 스승의 날 축하드려요🎉\n항상 감사하고 존경합니다 교수님!😍",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/67054949c029ecb6.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/67054949c029ecb6.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-04-17-xrd-analysis-seminar",

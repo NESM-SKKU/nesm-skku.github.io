@@ -31,12 +31,14 @@
     "title_en": "M.S. Student",
     "title_ko": "석사과정",
     "joined": "2026.09",
-    "photo": "",
+    "photo": "assets/images/members/320d74b561090d78.jpg",
     "email": "rla5377@skku.edu",
     "summary_ko": "",
     "summary_en": "",
     "tags_en": [],
-    "tags_ko": []
+    "tags_ko": [],
+    "interests_ko": "",
+    "interests_en": ""
   },
   {
     "id": "ms-geurin-kim",

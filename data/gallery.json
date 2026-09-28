@@ -184,15 +184,20 @@
   {
     "id": "g-2025-12-30-2025-year-end-party",
     "date": "2025-12-30",
-    "date_label": "2025.12.30",
     "title_ko": "⭐2025년 송년회⭐",
     "title_en": "2025 Year-end Party",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "2025년을 마무리 하며\n랩실 전체 회식을 진행했습니다!\n이번 회식에는 26년 신입생들도 함께 참석하여\n더욱 새롭고 뜻깊은 자리였는데요😚\n2025년 한 해를 함께 달려온 교수님\n그리고 랩실 멤버들 모두 수고 많으셨고,\n다가올 2026년을 함께할 새로운 인연들도 진심으로 환영합니다✨\n앞으로 열심히 연구🧪하며 좋은 추억 많이 만들어가요!",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/e13b1959bdfeaa45.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/e13b1959bdfeaa45.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-09-20-september-lab-gathering",

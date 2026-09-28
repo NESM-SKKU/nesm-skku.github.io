@@ -747,3 +747,13 @@ html[data-theme="dark"] .pi-section { color: #8FC0FF; border-color: #8FC0FF; }
 .badge-hc { display: inline-block; margin-left: .55rem; vertical-align: middle; font-family: var(--font-sans-kr); font-size: .7rem; font-weight: 700; letter-spacing: .02em; color: #8A4B00; background: #FFF1D6; border: 1px solid #F6B42D; border-radius: 999px; padding: .15rem .55rem; white-space: nowrap; }
 html[data-theme="dark"] .badge-hc { color: #F6B42D; background: rgba(246,180,45,.12); }
 .hero.hero-v2 .hero-v2-sub { font-size: clamp(1.25rem, 1.8vw, 1.7rem); font-weight: 600; color: rgba(255,255,255,.88); margin-top: 1.8rem; }
+
+/* member grid: 4 per row, compact cards */
+.member-grid { grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1.1rem; }
+.member-card { padding: 1rem; }
+.member-card .photo { aspect-ratio: 1 / 1; height: auto; }
+.member-card .name-ko { font-size: 1.1rem; }
+.member-card .name-en, .member-card .role-line, .member-card .role-line .joined, .member-card .email-row { font-size: .88rem; }
+@media (max-width: 1024px) { .member-grid { grid-template-columns: repeat(3, minmax(0,1fr)); } }
+@media (max-width: 720px) { .member-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
+@media (max-width: 420px) { .member-grid { grid-template-columns: 1fr; } }

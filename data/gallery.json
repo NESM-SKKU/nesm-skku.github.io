@@ -223,15 +223,30 @@
   {
     "id": "g-2025-08-20-4th-battery-r-d-trends-forum-dgist",
     "date": "2025-08-20",
-    "date_label": "2025.08.20",
     "title_ko": "제4회 이차전지 최신 연구 개발 동향 토론회 @ DGIST",
     "title_en": "4th Battery R&D Trends Forum @ DGIST",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "이번 토론회에 참석하여\n각 랩실에서 진행 중인 연구 주제를 접할 수 있었고,\n앞으로의 이차전지 연구 방향에 대한\n교수님들의 고견을 들을 수 있는\n뜻깊은 시간이었습니다. 🔥\n또한, 같은 이차전지를 연구하는 여러 대학의 학생들과\n교류할 수 있는 기회가 되어 의미가 있었으며,\n최신 연구 개발 동향에 발맞추어\n제 연구도 발전시켜야겠다는 다짐을 하게 되었습니다!⚡",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/fdd43625d3381edb.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/fdd43625d3381edb.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/edb631af532b819c.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/89e9abb9b94c430b.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-08-06-2025-neutron-diffraction-summer-school",

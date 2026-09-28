@@ -550,3 +550,25 @@ html[data-theme="dark"] .site-header .nav-brand .brand-logo-dark { display: bloc
 @media (max-width: 600px) { .tl-photos-2, .tl-photos-3 { grid-template-columns: 1fr; } }
 
 .chart-updated { text-align: right; font-family: var(--font-mono, ui-monospace, monospace); font-size: .75rem; letter-spacing: .04em; color: var(--c-text-muted); margin-top: var(--space-2, .5rem); }
+
+/* ============================== Hero: single-line title ================= */
+.hero.hero-cnu .hero-title-ko,
+.hero.hero-cnu .hero-title-en { font-size: clamp(2.2rem, 4.6vw, 4.4rem); line-height: 1.15; letter-spacing: -0.04em; }
+.hero.hero-cnu .hero-fullname {
+  margin: 1.25rem 0 0; font-family: var(--font-sans-kr); color: var(--c-text-light);
+  font-size: clamp(1rem, 1.3vw, 1.2rem); line-height: 1.6;
+}
+.hero.hero-cnu .hero-fullname span { display: block; }
+.hero.hero-cnu .hero-fullname .fullname-en { font-weight: 600; color: var(--c-text); letter-spacing: -0.01em; }
+@media (max-width: 720px) {
+  .hero.hero-cnu .hero-title-ko, .hero.hero-cnu .hero-title-en { font-size: clamp(1.7rem, 7.5vw, 2.4rem); }
+}
+
+/* ============================== Scholar stats (citations section) ======== */
+.scholar-stats { display: flex; gap: 3rem; margin: 0 0 1.5rem; }
+.scholar-stats .n { font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 2.2rem; font-weight: 700; color: var(--cnu-blue); letter-spacing: -0.02em; line-height: 1; }
+html[data-theme="dark"] .scholar-stats .n { color: #8FC0FF; }
+.scholar-stats .lbl { font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--c-text-light); margin-top: .4rem; }
+@media (min-width: 721px) {
+  .hero.hero-cnu .hero-title-ko, .hero.hero-cnu .hero-title-en { white-space: nowrap; max-width: none; }
+}

@@ -41,15 +41,20 @@
   {
     "id": "g-2026-05-29-geurin-s-birthday",
     "date": "2026-05-29",
-    "date_label": "2026.05.29",
     "title_ko": "💚 그린 생일 💚",
     "title_en": "Geurin's Birthday",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/6ac8d94694133fa6.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/6ac8d94694133fa6.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-05-13-2026-ksiec-spring-meeting-icc-jeju",

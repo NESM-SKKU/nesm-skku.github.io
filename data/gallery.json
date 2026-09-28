@@ -197,15 +197,20 @@
   {
     "id": "g-2025-09-20-september-lab-gathering",
     "date": "2025-09-20",
-    "date_label": "2025.09.20",
     "title_ko": "9월 회식💜",
     "title_en": "September Lab Gathering",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "랩미팅 후 점심 회식을 했어요☀️\n맛있는 식사와 함께 웃음😀이\n가득했던 시간이었습니다!\n다들 열심히 발표했던 만큼\n후식까지 푸파🍨🔥\n남은 9월도 다같이 파이팅해요\n(교수님 최애 음식 샤브샤브 확인 ㅎㅎ)\n♥️♥️",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/6a7dccfdb4a7734f.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/6a7dccfdb4a7734f.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-08-28-august-lab-gathering",

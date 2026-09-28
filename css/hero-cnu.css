@@ -732,3 +732,13 @@ html[data-theme="dark"] .pi-section { color: #8FC0FF; border-color: #8FC0FF; }
 .member-card .role-line { font-family: var(--font-sans-kr); font-size: .98rem; color: var(--c-text); letter-spacing: 0; }
 .member-card .role-line .joined { font-family: var(--font-sans-kr); font-size: .98rem; }
 .member-card .email-row { font-family: var(--font-sans-kr); font-size: .95rem; letter-spacing: 0; }
+
+/* scholar stats inside the chart card (top-left) */
+.citations-chart-wrap { position: relative; }
+.scholar-stats.overlay { position: absolute; top: 2rem; left: 4.5rem; z-index: 2; gap: 1.8rem; margin: 0; }
+.scholar-stats.overlay .n { font-size: 1.5rem; }
+.scholar-stats.overlay .lbl { font-size: .68rem; margin-top: .25rem; }
+@media (max-width: 720px) { .scholar-stats.overlay { position: static; margin: 0 0 1rem; gap: 1.5rem; } }
+.citations-chart-wrap .citations-chart { padding-top: 5.5rem; }
+.scholar-stats.overlay { top: 1.6rem; left: 2.5rem; }
+@media (max-width: 720px) { .citations-chart-wrap .citations-chart { padding-top: var(--space-8); } }

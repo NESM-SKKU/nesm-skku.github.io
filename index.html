@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Serif+KR:wght@400;500;600;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css?v=20260928a" />
-  <link rel="stylesheet" href="css/hero-cnu.css?v=20260928o" />
+  <link rel="stylesheet" href="css/hero-cnu.css?v=20260928q" />
 </head>
 <body>
 
@@ -113,11 +113,13 @@
         <div class="eyebrow">Citations growth</div>
         <h2>Impact over time</h2>
       </div>
-      <div class="scholar-stats center">
-        <div class="stat"><div class="n" data-metric="citations_total">0</div><div class="lbl">Citations</div></div>
-        <div class="stat"><div class="n" data-metric="h_index">0</div><div class="lbl">h-index</div></div>
+      <div class="citations-chart-wrap">
+        <div class="scholar-stats overlay">
+          <div class="stat"><div class="n" data-metric="citations_total">0</div><div class="lbl">Citations</div></div>
+          <div class="stat"><div class="n" data-metric="h_index">0</div><div class="lbl">h-index</div></div>
+        </div>
+        <div class="citations-chart" id="citations-chart"></div>
       </div>
-      <div class="citations-chart" id="citations-chart"></div>
     </div>
   </section>
 </main>

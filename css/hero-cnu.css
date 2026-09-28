@@ -509,3 +509,10 @@ html[data-theme="dark"] .topic-card .kw {
 /* ============================== Footer brand ============================ */
 .site-footer h4 { color: var(--cnu-blue); font-family: var(--font-display); font-weight: 700; letter-spacing: -0.02em; }
 html[data-theme="dark"] .site-footer h4 { color: #8FC0FF; }
+
+/* ============================== NAV brand logo ========================== */
+.site-header .nav-brand { display: inline-flex; align-items: center; line-height: 0; }
+.site-header .nav-brand .brand-logo { height: 26px; width: auto; display: block; }
+.site-header .nav-brand .brand-logo-dark { display: none; }
+html[data-theme="dark"] .site-header .nav-brand .brand-logo-light { display: none; }
+html[data-theme="dark"] .site-header .nav-brand .brand-logo-dark { display: block; }

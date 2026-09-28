@@ -757,3 +757,6 @@ html[data-theme="dark"] .badge-hc { color: #F6B42D; background: rgba(246,180,45,
 @media (max-width: 1024px) { .member-grid { grid-template-columns: repeat(3, minmax(0,1fr)); } }
 @media (max-width: 720px) { .member-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
 @media (max-width: 420px) { .member-grid { grid-template-columns: 1fr; } }
+/* member photos: portrait frame, keep top of head */
+.member-card .photo { aspect-ratio: 3 / 4; }
+.member-card img.photo { object-fit: cover; object-position: center top; }

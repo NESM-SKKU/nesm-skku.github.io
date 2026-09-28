@@ -80,15 +80,20 @@
   {
     "id": "g-2026-05-05-first-nesm-picnic",
     "date": "2026-05-05",
-    "date_label": "2026.05.05",
     "title_ko": "NESM의 첫 피크닉!🌳",
     "title_en": "First NESM Picnic",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/cb37191d37792480.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/cb37191d37792480.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2026-04-03-april-lab-gathering-busan",

@@ -236,15 +236,25 @@
   {
     "id": "g-2025-08-06-2025-neutron-diffraction-summer-school",
     "date": "2025-08-06",
-    "date_label": "2025.08.06~07",
     "title_ko": "2025년도 중성자회절 여름학교",
     "title_en": "2025 Neutron Diffraction Summer School",
     "summary_ko": "",
     "summary_en": "",
     "body_ko": "한국원자력연구원에서 진행한\n중성자회절 여름학교에 다녀왔습니다!\n소재 연구에 있어 필수적인 X-선 분말 회절과\n중성자분말 회절에 대한 기초를 학습할 수 있었고,\n특히, 결정 구조 분석 실습을 직접 해보며\n실질적인 도움이 되었던 교육이었습니다!!👍",
     "body_en": "",
-    "cover": "",
-    "images": []
+    "cover": "assets/images/gallery/8e056fdbd362915b.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/8e056fdbd362915b.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      },
+      {
+        "src": "assets/images/gallery/18e1c7335ee092ce.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
   },
   {
     "id": "g-2025-08-01-the-4th-cnu-su-joint-symposium",

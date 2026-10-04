@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-03T21:46:35Z",
+  "updated_at": "2026-10-04T21:06:33Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9507,
-  "citations_recent5y": 8571,
+  "citations_total": 9512,
+  "citations_recent5y": 8576,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -28,11 +28,11 @@
     },
     {
       "year": 2023,
-      "count": 1510
+      "count": 1513
     },
     {
       "year": 2024,
-      "count": 1644
+      "count": 1643
     },
     {
       "year": 2025,
@@ -40,7 +40,7 @@
     },
     {
       "year": 2026,
-      "count": 1478
+      "count": 1481
     }
   ],
   "papers": [
@@ -83,7 +83,7 @@
     {
       "title": "Suppressing detrimental phase transitions via tungsten doping of LiNiO2 cathode for next-generation lithium-ion batteries",
       "year": "2019",
-      "citations": 309,
+      "citations": 310,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4DMP91E08xMC"
     },
     {
@@ -131,7 +131,7 @@
     {
       "title": "Tungsten doping for stabilization of Li [Ni0. 90Co0. 05Mn0. 05] O2 cathode for Li-ion battery at high voltage",
       "year": "2019",
-      "citations": 224,
+      "citations": 225,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:Se3iqnhoufwC"
     },
     {
@@ -227,7 +227,7 @@
     {
       "title": "Single-crystal vs polycrystalline cathodes for lithium-ion batteries",
       "year": "2025",
-      "citations": 92,
+      "citations": 93,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4JMBOYKVnBMC"
     },
     {
@@ -245,7 +245,7 @@
     {
       "title": "High-Performance LiNiO2 Cathodes with Practical Loading Cycled with Li metal Anodes in Fluoroethylene Carbonate-Based Electrolyte Solution",
       "year": "2018",
-      "citations": 59,
+      "citations": 60,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:u5HHmVD_uO8C"
     },
     {
@@ -275,7 +275,7 @@
     {
       "title": "Ni-Rich Li [NixMnyCo1–x–y] O2 Single Crystals as Superior Fast Charge Cathodes for Lithium-Ion Batteries",
       "year": "2025",
-      "citations": 20,
+      "citations": 21,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:RHpTSmoSYBkC"
     },
     {

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-06T18:03:51Z",
+  "updated_at": "2026-10-07T18:05:27Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9513,
-  "citations_recent5y": 8577,
+  "citations_total": 9516,
+  "citations_recent5y": 8580,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -40,14 +40,14 @@
     },
     {
       "year": 2026,
-      "count": 1482
+      "count": 1485
     }
   ],
   "papers": [
     {
       "title": "Capacity Fading of Ni-Rich Li[NixCoyMn1–x–y]O2 (0.6 ≤ x ≤ 0.95) Cathodes for High-Energy-Density Lithium-Ion Batteries: Bulk or Surface Degradation?",
       "year": "2018",
-      "citations": 1870,
+      "citations": 1871,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4TOpqqG69KYC"
     },
     {
@@ -113,7 +113,7 @@
     {
       "title": "Li[Ni0.9Co0.09W0.01]O2: A New Type of Layered Oxide Cathode with High Cycling Stability",
       "year": "2019",
-      "citations": 277,
+      "citations": 278,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:eQOLeE2rZwMC"
     },
     {
@@ -167,7 +167,7 @@
     {
       "title": "Optimized Ni‐rich NCMA cathode for electric vehicle batteries",
       "year": "2021",
-      "citations": 153,
+      "citations": 154,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:2osOgNQ5qMEC"
     },
     {

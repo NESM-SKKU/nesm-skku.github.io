@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-11T18:04:19Z",
+  "updated_at": "2026-10-12T18:03:56Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9528,
-  "citations_recent5y": 8592,
+  "citations_total": 9538,
+  "citations_recent5y": 8603,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -16,7 +16,7 @@
     },
     {
       "year": 2020,
-      "count": 578
+      "count": 577
     },
     {
       "year": 2021,
@@ -24,7 +24,7 @@
     },
     {
       "year": 2022,
-      "count": 1253
+      "count": 1254
     },
     {
       "year": 2023,
@@ -36,18 +36,18 @@
     },
     {
       "year": 2025,
-      "count": 1815
+      "count": 1816
     },
     {
       "year": 2026,
-      "count": 1498
+      "count": 1507
     }
   ],
   "papers": [
     {
       "title": "Capacity Fading of Ni-Rich Li[NixCoyMn1–x–y]O2 (0.6 ≤ x ≤ 0.95) Cathodes for High-Energy-Density Lithium-Ion Batteries: Bulk or Surface Degradation?",
       "year": "2018",
-      "citations": 1873,
+      "citations": 1874,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4TOpqqG69KYC"
     },
     {
@@ -59,7 +59,7 @@
     {
       "title": "Beyond doping and coating: prospective strategies for stable high-capacity layered Ni-rich cathodes",
       "year": "2020",
-      "citations": 524,
+      "citations": 525,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:IjCSPb-OGe4C"
     },
     {
@@ -83,13 +83,13 @@
     {
       "title": "Suppressing detrimental phase transitions via tungsten doping of LiNiO2 cathode for next-generation lithium-ion batteries",
       "year": "2019",
-      "citations": 310,
+      "citations": 311,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4DMP91E08xMC"
     },
     {
       "title": "Ni-rich layered cathodes for lithium-ion batteries: From challenges to the future",
       "year": "2023",
-      "citations": 301,
+      "citations": 302,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:mB3voiENLucC"
     },
     {
@@ -119,7 +119,7 @@
     {
       "title": "Near-surface reconstruction in Ni-rich layered cathodes for high-performance lithium-ion batteries",
       "year": "2024",
-      "citations": 272,
+      "citations": 274,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:HDshCWvjkbEC"
     },
     {
@@ -131,7 +131,7 @@
     {
       "title": "Tungsten doping for stabilization of Li [Ni0. 90Co0. 05Mn0. 05] O2 cathode for Li-ion battery at high voltage",
       "year": "2019",
-      "citations": 225,
+      "citations": 226,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:Se3iqnhoufwC"
     },
     {
@@ -149,13 +149,13 @@
     {
       "title": "New Class of Ni‐Rich Cathode Materials Li[NixCoyB1−x−y]O2 for Next Lithium Batteries",
       "year": "2020",
-      "citations": 197,
+      "citations": 198,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:0EnyYjriUFMC"
     },
     {
       "title": "Compositionally and structurally redesigned high-energy Ni-rich layered cathode for next-generation lithium batteries",
       "year": "2019",
-      "citations": 192,
+      "citations": 193,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:mVmsd5A6BfQC"
     },
     {
@@ -167,7 +167,7 @@
     {
       "title": "Optimized Ni‐rich NCMA cathode for electric vehicle batteries",
       "year": "2021",
-      "citations": 154,
+      "citations": 155,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:2osOgNQ5qMEC"
     },
     {

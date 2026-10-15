@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-14T18:18:58Z",
+  "updated_at": "2026-10-15T18:16:41Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9539,
-  "citations_recent5y": 8603,
+  "citations_total": 9546,
+  "citations_recent5y": 8610,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -36,18 +36,18 @@
     },
     {
       "year": 2025,
-      "count": 1818
+      "count": 1815
     },
     {
       "year": 2026,
-      "count": 1505
+      "count": 1513
     }
   ],
   "papers": [
     {
       "title": "Capacity Fading of Ni-Rich Li[NixCoyMn1–x–y]O2 (0.6 ≤ x ≤ 0.95) Cathodes for High-Energy-Density Lithium-Ion Batteries: Bulk or Surface Degradation?",
       "year": "2018",
-      "citations": 1874,
+      "citations": 1875,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4TOpqqG69KYC"
     },
     {
@@ -119,7 +119,7 @@
     {
       "title": "Near-surface reconstruction in Ni-rich layered cathodes for high-performance lithium-ion batteries",
       "year": "2024",
-      "citations": 275,
+      "citations": 276,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:HDshCWvjkbEC"
     },
     {
@@ -137,7 +137,7 @@
     {
       "title": "Understanding the Capacity Fading Mechanisms of O3‐Type Na[Ni0.5Mn0.5]O2 Cathode for Sodium‐Ion Batteries",
       "year": "2020",
-      "citations": 220,
+      "citations": 222,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:Zph67rFs4hoC"
     },
     {
@@ -155,7 +155,7 @@
     {
       "title": "Compositionally and structurally redesigned high-energy Ni-rich layered cathode for next-generation lithium batteries",
       "year": "2019",
-      "citations": 193,
+      "citations": 192,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:mVmsd5A6BfQC"
     },
     {
@@ -227,7 +227,7 @@
     {
       "title": "Single-crystal vs polycrystalline cathodes for lithium-ion batteries",
       "year": "2025",
-      "citations": 94,
+      "citations": 96,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4JMBOYKVnBMC"
     },
     {
@@ -257,7 +257,7 @@
     {
       "title": "All-solid-state lithium batteries featuring hybrid electrolytes based on Li+ ion-conductive Li7La3Zr2O12 framework and full-concentration gradient Ni-rich NCM cathode",
       "year": "2022",
-      "citations": 36,
+      "citations": 37,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:Tyk-4Ss8FVUC"
     },
     {
@@ -269,7 +269,7 @@
     {
       "title": "Enhanced Cycling Stability of O3-Type Na[Ni0.5Mn0.5]O2 Cathode through Sn Addition for Sodium-Ion Batteries",
       "year": "2021",
-      "citations": 33,
+      "citations": 34,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:qxL8FJ1GzNcC"
     },
     {

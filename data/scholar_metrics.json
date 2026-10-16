@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-15T18:16:41Z",
+  "updated_at": "2026-10-16T18:14:45Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9546,
-  "citations_recent5y": 8610,
+  "citations_total": 9556,
+  "citations_recent5y": 8620,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -36,11 +36,11 @@
     },
     {
       "year": 2025,
-      "count": 1815
+      "count": 1816
     },
     {
       "year": 2026,
-      "count": 1513
+      "count": 1523
     }
   ],
   "papers": [
@@ -53,7 +53,7 @@
     {
       "title": "Capacity fading mechanisms in Ni-rich single-crystal NCM cathodes",
       "year": "2021",
-      "citations": 670,
+      "citations": 672,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:M3ejUd6NZC8C"
     },
     {
@@ -65,7 +65,7 @@
     {
       "title": "Degradation mechanism of Ni-enriched NCA cathode for lithium batteries: are microcracks really critical?",
       "year": "2019",
-      "citations": 495,
+      "citations": 496,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:YsMSGLbcyi4C"
     },
     {
@@ -111,16 +111,16 @@
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:ufrVoPGSRksC"
     },
     {
+      "title": "Near-surface reconstruction in Ni-rich layered cathodes for high-performance lithium-ion batteries",
+      "year": "2024",
+      "citations": 278,
+      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:HDshCWvjkbEC"
+    },
+    {
       "title": "Li[Ni0.9Co0.09W0.01]O2: A New Type of Layered Oxide Cathode with High Cycling Stability",
       "year": "2019",
       "citations": 278,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:eQOLeE2rZwMC"
-    },
-    {
-      "title": "Near-surface reconstruction in Ni-rich layered cathodes for high-performance lithium-ion batteries",
-      "year": "2024",
-      "citations": 276,
-      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:HDshCWvjkbEC"
     },
     {
       "title": "Degradation mechanism of highly Ni-rich Li [NixCoyMn1–x–y] O2 cathodes with x> 0.9",
@@ -155,7 +155,7 @@
     {
       "title": "Compositionally and structurally redesigned high-energy Ni-rich layered cathode for next-generation lithium batteries",
       "year": "2019",
-      "citations": 192,
+      "citations": 193,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:mVmsd5A6BfQC"
     },
     {
@@ -179,13 +179,13 @@
     {
       "title": "Microstructure-optimized concentration-gradient NCM cathode for long-life Li-ion batteries",
       "year": "2022",
-      "citations": 135,
+      "citations": 136,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:ULOm3_A8WrAC"
     },
     {
       "title": "Microstrain alleviation in high-energy Ni-rich NCMA cathode for long battery life",
       "year": "2021",
-      "citations": 135,
+      "citations": 136,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:QIV2ME_5wuYC"
     },
     {
@@ -209,7 +209,7 @@
     {
       "title": "High-performance Ni-rich Li[Ni0.9–xCo0.1Alx]O2 cathodes via multi-stage microstructural tailoring from hydroxide precursor to the lithiated oxide",
       "year": "2021",
-      "citations": 107,
+      "citations": 108,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:qjMakFHDy7sC"
     },
     {
@@ -233,7 +233,7 @@
     {
       "title": "Structural stability of single-crystalline Ni-rich layered cathode upon delithiation",
       "year": "2022",
-      "citations": 89,
+      "citations": 90,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:MXK_kJrjxJIC"
     },
     {

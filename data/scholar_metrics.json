@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-18T18:09:12Z",
+  "updated_at": "2026-10-19T18:16:30Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9564,
-  "citations_recent5y": 8628,
+  "citations_total": 9569,
+  "citations_recent5y": 8633,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -36,11 +36,11 @@
     },
     {
       "year": 2025,
-      "count": 1817
+      "count": 1815
     },
     {
       "year": 2026,
-      "count": 1530
+      "count": 1537
     }
   ],
   "papers": [
@@ -53,7 +53,7 @@
     {
       "title": "Capacity fading mechanisms in Ni-rich single-crystal NCM cathodes",
       "year": "2021",
-      "citations": 674,
+      "citations": 675,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:M3ejUd6NZC8C"
     },
     {
@@ -89,7 +89,7 @@
     {
       "title": "Ni-rich layered cathodes for lithium-ion batteries: From challenges to the future",
       "year": "2023",
-      "citations": 303,
+      "citations": 304,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:mB3voiENLucC"
     },
     {
@@ -107,7 +107,7 @@
     {
       "title": "Near-surface reconstruction in Ni-rich layered cathodes for high-performance lithium-ion batteries",
       "year": "2024",
-      "citations": 279,
+      "citations": 280,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:HDshCWvjkbEC"
     },
     {
@@ -197,7 +197,7 @@
     {
       "title": "Nano-rods in Ni-rich layered cathodes for practical batteries",
       "year": "2024",
-      "citations": 114,
+      "citations": 115,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:R3hNpaxXUhUC"
     },
     {
@@ -281,7 +281,7 @@
     {
       "title": "Nanorod Cathodes: A Solution for Polycrystalline Cathodes in Next-Generation Lithium Batteries",
       "year": "2025",
-      "citations": 7,
+      "citations": 8,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:j3f4tGmQtD8C"
     },
     {

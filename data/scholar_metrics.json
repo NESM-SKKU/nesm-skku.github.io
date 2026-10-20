@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-19T18:16:30Z",
+  "updated_at": "2026-10-20T18:18:27Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9569,
-  "citations_recent5y": 8633,
+  "citations_total": 9578,
+  "citations_recent5y": 8641,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -36,18 +36,18 @@
     },
     {
       "year": 2025,
-      "count": 1815
+      "count": 1814
     },
     {
       "year": 2026,
-      "count": 1537
+      "count": 1544
     }
   ],
   "papers": [
     {
       "title": "Capacity Fading of Ni-Rich Li[NixCoyMn1–x–y]O2 (0.6 ≤ x ≤ 0.95) Cathodes for High-Energy-Density Lithium-Ion Batteries: Bulk or Surface Degradation?",
       "year": "2018",
-      "citations": 1876,
+      "citations": 1877,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4TOpqqG69KYC"
     },
     {
@@ -71,7 +71,7 @@
     {
       "title": "Reducing cobalt from lithium-ion batteries for the electric vehicle era",
       "year": "2021",
-      "citations": 383,
+      "citations": 384,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:W7OEmFMy1HYC"
     },
     {
@@ -89,7 +89,7 @@
     {
       "title": "Ni-rich layered cathodes for lithium-ion batteries: From challenges to the future",
       "year": "2023",
-      "citations": 304,
+      "citations": 306,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:mB3voiENLucC"
     },
     {
@@ -111,16 +111,16 @@
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:HDshCWvjkbEC"
     },
     {
+      "title": "Li[Ni0.9Co0.09W0.01]O2: A New Type of Layered Oxide Cathode with High Cycling Stability",
+      "year": "2019",
+      "citations": 279,
+      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:eQOLeE2rZwMC"
+    },
+    {
       "title": "High-Energy Ni-Rich Li[NixCoyMn1–x–y]O2 Cathodes via Compositional Partitioning for Next-Generation Electric Vehicles",
       "year": "2017",
       "citations": 279,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:ufrVoPGSRksC"
-    },
-    {
-      "title": "Li[Ni0.9Co0.09W0.01]O2: A New Type of Layered Oxide Cathode with High Cycling Stability",
-      "year": "2019",
-      "citations": 278,
-      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:eQOLeE2rZwMC"
     },
     {
       "title": "Degradation mechanism of highly Ni-rich Li [NixCoyMn1–x–y] O2 cathodes with x> 0.9",
@@ -161,7 +161,7 @@
     {
       "title": "Microstructural Degradation of Ni‐Rich Li[NixCoyMn1−x−y]O2 Cathodes During Accelerated Calendar Aging",
       "year": "2018",
-      "citations": 192,
+      "citations": 193,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:WF5omc3nYNoC"
     },
     {
@@ -179,7 +179,7 @@
     {
       "title": "Microstructure-optimized concentration-gradient NCM cathode for long-life Li-ion batteries",
       "year": "2022",
-      "citations": 136,
+      "citations": 137,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:ULOm3_A8WrAC"
     },
     {
@@ -197,7 +197,7 @@
     {
       "title": "Nano-rods in Ni-rich layered cathodes for practical batteries",
       "year": "2024",
-      "citations": 115,
+      "citations": 116,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:R3hNpaxXUhUC"
     },
     {
@@ -227,7 +227,7 @@
     {
       "title": "Single-crystal vs polycrystalline cathodes for lithium-ion batteries",
       "year": "2025",
-      "citations": 96,
+      "citations": 97,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4JMBOYKVnBMC"
     },
     {

@@ -1,5 +1,23 @@
 [
   {
+    "id": "g-1792549763196",
+    "date": "2026-10-20",
+    "title_ko": "10월 회식",
+    "title_en": "",
+    "summary_ko": "",
+    "summary_en": "",
+    "body_ko": "",
+    "body_en": "",
+    "cover": "assets/images/gallery/0f1087f7ddde73e8.jpg",
+    "images": [
+      {
+        "src": "assets/images/gallery/0f1087f7ddde73e8.jpg",
+        "caption_ko": "",
+        "caption_en": ""
+      }
+    ]
+  },
+  {
     "id": "g-1790585500535",
     "date": "2026-08-30",
     "title_ko": "실험실 이사 to SKKU",

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-23T18:21:28Z",
+  "updated_at": "2026-10-24T18:10:32Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9590,
-  "citations_recent5y": 8652,
+  "citations_total": 9593,
+  "citations_recent5y": 8655,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -36,11 +36,11 @@
     },
     {
       "year": 2025,
-      "count": 1814
+      "count": 1804
     },
     {
       "year": 2026,
-      "count": 1558
+      "count": 1572
     }
   ],
   "papers": [
@@ -53,13 +53,13 @@
     {
       "title": "Capacity fading mechanisms in Ni-rich single-crystal NCM cathodes",
       "year": "2021",
-      "citations": 677,
+      "citations": 678,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:M3ejUd6NZC8C"
     },
     {
       "title": "Beyond doping and coating: prospective strategies for stable high-capacity layered Ni-rich cathodes",
       "year": "2020",
-      "citations": 527,
+      "citations": 528,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:IjCSPb-OGe4C"
     },
     {
@@ -227,7 +227,7 @@
     {
       "title": "Single-crystal vs polycrystalline cathodes for lithium-ion batteries",
       "year": "2025",
-      "citations": 99,
+      "citations": 100,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4JMBOYKVnBMC"
     },
     {

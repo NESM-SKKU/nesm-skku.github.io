@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-26T18:24:32Z",
+  "updated_at": "2026-10-27T18:26:14Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9621,
-  "citations_recent5y": 8680,
+  "citations_total": 9624,
+  "citations_recent5y": 8686,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -24,11 +24,11 @@
     },
     {
       "year": 2022,
-      "count": 1254
+      "count": 1253
     },
     {
       "year": 2023,
-      "count": 1513
+      "count": 1512
     },
     {
       "year": 2024,
@@ -36,11 +36,11 @@
     },
     {
       "year": 2025,
-      "count": 1804
+      "count": 1805
     },
     {
       "year": 2026,
-      "count": 1580
+      "count": 1592
     }
   ],
   "papers": [
@@ -107,7 +107,7 @@
     {
       "title": "Near-surface reconstruction in Ni-rich layered cathodes for high-performance lithium-ion batteries",
       "year": "2024",
-      "citations": 282,
+      "citations": 284,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:HDshCWvjkbEC"
     },
     {
@@ -185,7 +185,7 @@
     {
       "title": "Microstrain alleviation in high-energy Ni-rich NCMA cathode for long battery life",
       "year": "2021",
-      "citations": 137,
+      "citations": 138,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:QIV2ME_5wuYC"
     },
     {
@@ -227,13 +227,13 @@
     {
       "title": "Single-crystal vs polycrystalline cathodes for lithium-ion batteries",
       "year": "2025",
-      "citations": 102,
+      "citations": 103,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4JMBOYKVnBMC"
     },
     {
       "title": "Structural stability of single-crystalline Ni-rich layered cathode upon delithiation",
       "year": "2022",
-      "citations": 90,
+      "citations": 89,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:MXK_kJrjxJIC"
     },
     {

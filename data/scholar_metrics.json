@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T21:58:08Z",
+  "updated_at": "2026-10-29T22:08:19Z",
   "user_id": "3pg8AjQAAAAJ",
   "citations_total": 9624,
   "citations_recent5y": 8686,
@@ -36,11 +36,11 @@
     },
     {
       "year": 2025,
-      "count": 1805
+      "count": 1803
     },
     {
       "year": 2026,
-      "count": 1592
+      "count": 1594
     }
   ],
   "papers": [

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-07T21:10:44Z",
+  "updated_at": "2026-11-08T21:26:19Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9695,
-  "citations_recent5y": 8755,
+  "citations_total": 9706,
+  "citations_recent5y": 8765,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -36,18 +36,18 @@
     },
     {
       "year": 2025,
-      "count": 1804
+      "count": 1802
     },
     {
       "year": 2026,
-      "count": 1646
+      "count": 1657
     }
   ],
   "papers": [
     {
       "title": "Capacity Fading of Ni-Rich Li[NixCoyMn1–x–y]O2 (0.6 ≤ x ≤ 0.95) Cathodes for High-Energy-Density Lithium-Ion Batteries: Bulk or Surface Degradation?",
       "year": "2018",
-      "citations": 1890,
+      "citations": 1892,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4TOpqqG69KYC"
     },
     {
@@ -59,7 +59,7 @@
     {
       "title": "Beyond doping and coating: prospective strategies for stable high-capacity layered Ni-rich cathodes",
       "year": "2020",
-      "citations": 536,
+      "citations": 537,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:IjCSPb-OGe4C"
     },
     {
@@ -101,13 +101,13 @@
     {
       "title": "A highly stabilized Ni-rich NCA cathode for high-energy lithium-ion batteries",
       "year": "2020",
-      "citations": 295,
+      "citations": 296,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:d1gkVwhDpl0C"
     },
     {
       "title": "Near-surface reconstruction in Ni-rich layered cathodes for high-performance lithium-ion batteries",
       "year": "2024",
-      "citations": 287,
+      "citations": 288,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:HDshCWvjkbEC"
     },
     {
@@ -161,7 +161,7 @@
     {
       "title": "Compositionally and structurally redesigned high-energy Ni-rich layered cathode for next-generation lithium batteries",
       "year": "2019",
-      "citations": 194,
+      "citations": 195,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:mVmsd5A6BfQC"
     },
     {
@@ -197,7 +197,7 @@
     {
       "title": "Nano-rods in Ni-rich layered cathodes for practical batteries",
       "year": "2024",
-      "citations": 118,
+      "citations": 119,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:R3hNpaxXUhUC"
     },
     {
@@ -215,7 +215,7 @@
     {
       "title": "Single-crystal vs polycrystalline cathodes for lithium-ion batteries",
       "year": "2025",
-      "citations": 106,
+      "citations": 108,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4JMBOYKVnBMC"
     },
     {
@@ -293,8 +293,14 @@
     {
       "title": "Practical direct recycling of lithium-ion batteries via the state of recoverability",
       "year": "2026",
-      "citations": 2,
+      "citations": 3,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:bEWYMUwI8FkC"
+    },
+    {
+      "title": "Microstructural Degradation: Microstructural Degradation of Ni‐Rich Li[NixCoyMn1−x−y]O2 Cathodes During Accelerated Calendar Aging (Small 45/2018)",
+      "year": "2018",
+      "citations": 2,
+      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:UebtZRa9Y70C"
     },
     {
       "title": "Ultrathin Aluminum–Air Batteries via Hygroscopic Electrolytes for Continuous Operation of Imperceptible On‐Skin Electronics",
@@ -319,12 +325,6 @@
       "year": "2020",
       "citations": 1,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:YOwf2qJgpHMC"
-    },
-    {
-      "title": "Microstructural Degradation: Microstructural Degradation of Ni‐Rich Li[NixCoyMn1−x−y]O2 Cathodes During Accelerated Calendar Aging (Small 45/2018)",
-      "year": "2018",
-      "citations": 1,
-      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:UebtZRa9Y70C"
     },
     {
       "title": "Significance of particle morphology: Semi-single-crystalline O3-Type Na [Ni1/3Fe1/3Mn1/3] O2 cathode for practical Na-ion batteries",

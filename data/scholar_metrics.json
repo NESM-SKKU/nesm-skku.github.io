@@ -1,26 +1,26 @@
 {
-  "updated_at": "2026-11-11T23:47:24Z",
+  "updated_at": "2026-11-12T22:56:47Z",
   "user_id": "3pg8AjQAAAAJ",
   "citations_total": 9715,
-  "citations_recent5y": 8767,
+  "citations_recent5y": 8773,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
     {
       "year": 2018,
-      "count": 65
+      "count": 62
     },
     {
       "year": 2019,
-      "count": 253
+      "count": 251
     },
     {
       "year": 2020,
-      "count": 578
+      "count": 577
     },
     {
       "year": 2021,
-      "count": 872
+      "count": 865
     },
     {
       "year": 2022,
@@ -28,19 +28,19 @@
     },
     {
       "year": 2023,
-      "count": 1516
+      "count": 1518
     },
     {
       "year": 2024,
-      "count": 1658
+      "count": 1659
     },
     {
       "year": 2025,
-      "count": 1815
+      "count": 1806
     },
     {
       "year": 2026,
-      "count": 1642
+      "count": 1661
     }
   ],
   "papers": [
@@ -184,7 +184,7 @@
     },
     {
       "title": "Microstrain alleviation in high-energy Ni-rich NCMA cathode for long battery life",
-      "year": "2020",
+      "year": "2021",
       "citations": 139,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:QIV2ME_5wuYC"
     },

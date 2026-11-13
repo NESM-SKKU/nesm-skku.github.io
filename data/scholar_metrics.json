@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-12T22:56:47Z",
+  "updated_at": "2026-11-13T22:58:54Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9715,
-  "citations_recent5y": 8773,
+  "citations_total": 9719,
+  "citations_recent5y": 8777,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -40,20 +40,20 @@
     },
     {
       "year": 2026,
-      "count": 1661
+      "count": 1665
     }
   ],
   "papers": [
     {
       "title": "Capacity Fading of Ni-Rich Li[NixCoyMn1–x–y]O2 (0.6 ≤ x ≤ 0.95) Cathodes for High-Energy-Density Lithium-Ion Batteries: Bulk or Surface Degradation?",
       "year": "2018",
-      "citations": 1891,
+      "citations": 1893,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4TOpqqG69KYC"
     },
     {
       "title": "Capacity fading mechanisms in Ni-rich single-crystal NCM cathodes",
       "year": "2021",
-      "citations": 690,
+      "citations": 691,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:M3ejUd6NZC8C"
     },
     {
@@ -119,7 +119,7 @@
     {
       "title": "Li[Ni0.9Co0.09W0.01]O2: A New Type of Layered Oxide Cathode with High Cycling Stability",
       "year": "2019",
-      "citations": 279,
+      "citations": 278,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:eQOLeE2rZwMC"
     },
     {
@@ -155,7 +155,7 @@
     {
       "title": "Microstructural Degradation of Ni‐Rich Li[NixCoyMn1−x−y]O2 Cathodes During Accelerated Calendar Aging",
       "year": "2018",
-      "citations": 196,
+      "citations": 197,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:WF5omc3nYNoC"
     },
     {
@@ -171,16 +171,16 @@
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:2osOgNQ5qMEC"
     },
     {
+      "title": "Long-lasting Ni-rich NCMA cathodes via simultaneous microstructural refinement and surface modification",
+      "year": "2023",
+      "citations": 140,
+      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:IWHjjKOFINEC"
+    },
+    {
       "title": "Microstructure-optimized concentration-gradient NCM cathode for long-life Li-ion batteries",
       "year": "2022",
       "citations": 140,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:ULOm3_A8WrAC"
-    },
-    {
-      "title": "Long-lasting Ni-rich NCMA cathodes via simultaneous microstructural refinement and surface modification",
-      "year": "2023",
-      "citations": 139,
-      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:IWHjjKOFINEC"
     },
     {
       "title": "Microstrain alleviation in high-energy Ni-rich NCMA cathode for long battery life",

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-15T22:12:06Z",
+  "updated_at": "2026-11-17T01:14:55Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9728,
-  "citations_recent5y": 8785,
+  "citations_total": 9731,
+  "citations_recent5y": 8788,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -28,7 +28,7 @@
     },
     {
       "year": 2023,
-      "count": 1518
+      "count": 1519
     },
     {
       "year": 2024,
@@ -36,18 +36,18 @@
     },
     {
       "year": 2025,
-      "count": 1807
+      "count": 1805
     },
     {
       "year": 2026,
-      "count": 1681
+      "count": 1685
     }
   ],
   "papers": [
     {
       "title": "Capacity Fading of Ni-Rich Li[NixCoyMn1–x–y]O2 (0.6 ≤ x ≤ 0.95) Cathodes for High-Energy-Density Lithium-Ion Batteries: Bulk or Surface Degradation?",
       "year": "2018",
-      "citations": 1896,
+      "citations": 1898,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4TOpqqG69KYC"
     },
     {
@@ -65,7 +65,7 @@
     {
       "title": "Degradation mechanism of Ni-enriched NCA cathode for lithium batteries: are microcracks really critical?",
       "year": "2019",
-      "citations": 503,
+      "citations": 504,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:YsMSGLbcyi4C"
     },
     {

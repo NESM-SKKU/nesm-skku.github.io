@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-18T00:07:31Z",
+  "updated_at": "2026-11-18T23:40:17Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9731,
-  "citations_recent5y": 8788,
+  "citations_total": 9735,
+  "citations_recent5y": 8792,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -28,7 +28,7 @@
     },
     {
       "year": 2023,
-      "count": 1519
+      "count": 1518
     },
     {
       "year": 2024,
@@ -40,7 +40,7 @@
     },
     {
       "year": 2026,
-      "count": 1685
+      "count": 1690
     }
   ],
   "papers": [
@@ -83,7 +83,7 @@
     {
       "title": "Ni-rich layered cathodes for lithium-ion batteries: From challenges to the future",
       "year": "2023",
-      "citations": 313,
+      "citations": 314,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:mB3voiENLucC"
     },
     {
@@ -107,7 +107,7 @@
     {
       "title": "Near-surface reconstruction in Ni-rich layered cathodes for high-performance lithium-ion batteries",
       "year": "2024",
-      "citations": 288,
+      "citations": 289,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:HDshCWvjkbEC"
     },
     {
@@ -191,13 +191,13 @@
     {
       "title": "Morphology-dependent battery performance of Ni-rich layered cathodes: single-crystal versus refined polycrystal",
       "year": "2022",
-      "citations": 122,
+      "citations": 123,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:7PzlFSSx8tAC"
     },
     {
       "title": "Nano-rods in Ni-rich layered cathodes for practical batteries",
       "year": "2024",
-      "citations": 119,
+      "citations": 120,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:R3hNpaxXUhUC"
     },
     {

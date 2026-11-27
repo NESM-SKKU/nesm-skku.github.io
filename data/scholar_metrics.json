@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-26T01:15:42Z",
+  "updated_at": "2026-11-27T01:14:08Z",
   "user_id": "3pg8AjQAAAAJ",
-  "citations_total": 9775,
-  "citations_recent5y": 8828,
+  "citations_total": 9789,
+  "citations_recent5y": 8841,
   "h_index": 36,
   "i10_index": 39,
   "citations_history": [
@@ -36,24 +36,24 @@
     },
     {
       "year": 2025,
-      "count": 1802
+      "count": 1805
     },
     {
       "year": 2026,
-      "count": 1723
+      "count": 1732
     }
   ],
   "papers": [
     {
       "title": "Capacity Fading of Ni-Rich Li[NixCoyMn1–x–y]O2 (0.6 ≤ x ≤ 0.95) Cathodes for High-Energy-Density Lithium-Ion Batteries: Bulk or Surface Degradation?",
       "year": "2018",
-      "citations": 1902,
+      "citations": 1904,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4TOpqqG69KYC"
     },
     {
       "title": "Capacity fading mechanisms in Ni-rich single-crystal NCM cathodes",
       "year": "2021",
-      "citations": 696,
+      "citations": 698,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:M3ejUd6NZC8C"
     },
     {
@@ -65,7 +65,7 @@
     {
       "title": "Degradation mechanism of Ni-enriched NCA cathode for lithium batteries: are microcracks really critical?",
       "year": "2019",
-      "citations": 505,
+      "citations": 506,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:YsMSGLbcyi4C"
     },
     {
@@ -83,7 +83,7 @@
     {
       "title": "Ni-rich layered cathodes for lithium-ion batteries: From challenges to the future",
       "year": "2023",
-      "citations": 315,
+      "citations": 316,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:mB3voiENLucC"
     },
     {
@@ -107,7 +107,7 @@
     {
       "title": "Near-surface reconstruction in Ni-rich layered cathodes for high-performance lithium-ion batteries",
       "year": "2024",
-      "citations": 292,
+      "citations": 293,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:HDshCWvjkbEC"
     },
     {
@@ -125,7 +125,7 @@
     {
       "title": "Degradation mechanism of highly Ni-rich Li [NixCoyMn1–x–y] O2 cathodes with x> 0.9",
       "year": "2019",
-      "citations": 245,
+      "citations": 246,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:zYLM7Y9cAGgC"
     },
     {
@@ -161,7 +161,7 @@
     {
       "title": "Compositionally and structurally redesigned high-energy Ni-rich layered cathode for next-generation lithium batteries",
       "year": "2019",
-      "citations": 196,
+      "citations": 197,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:mVmsd5A6BfQC"
     },
     {
@@ -179,7 +179,7 @@
     {
       "title": "Microstructure-optimized concentration-gradient NCM cathode for long-life Li-ion batteries",
       "year": "2022",
-      "citations": 140,
+      "citations": 141,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:ULOm3_A8WrAC"
     },
     {
@@ -203,7 +203,7 @@
     {
       "title": "Single-crystal vs polycrystalline cathodes for lithium-ion batteries",
       "year": "2025",
-      "citations": 113,
+      "citations": 114,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:4JMBOYKVnBMC"
     },
     {
@@ -215,7 +215,7 @@
     {
       "title": "High-performance Ni-rich Li[Ni0.9–xCo0.1Alx]O2 cathodes via multi-stage microstructural tailoring from hydroxide precursor to the lithiated oxide",
       "year": "2021",
-      "citations": 111,
+      "citations": 112,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:qjMakFHDy7sC"
     },
     {
@@ -297,6 +297,18 @@
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:roLk4NBRz8UC"
     },
     {
+      "title": "Understanding Ni-Rich Layered Cathode Materials for Fast-Charging Li-Ion Batteries",
+      "year": "2024",
+      "citations": 2,
+      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:_Qo2XoVZTnwC"
+    },
+    {
+      "title": "Sodium‐Ion Batteries: Understanding the Capacity Fading Mechanisms of O3‐Type Na[Ni0.5Mn0.5]O2 Cathode for Sodium‐Ion Batteries (Adv. Energy Mater. 37 …",
+      "year": "2020",
+      "citations": 2,
+      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:YOwf2qJgpHMC"
+    },
+    {
       "title": "Microstructural Degradation: Microstructural Degradation of Ni‐Rich Li[NixCoyMn1−x−y]O2 Cathodes During Accelerated Calendar Aging (Small 45/2018)",
       "year": "2018",
       "citations": 2,
@@ -309,22 +321,10 @@
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:isC4tDSrTZIC"
     },
     {
-      "title": "Understanding Ni-Rich Layered Cathode Materials for Fast-Charging Li-Ion Batteries",
-      "year": "2024",
-      "citations": 1,
-      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:_Qo2XoVZTnwC"
-    },
-    {
       "title": "A Comparative Analysis of the Capacity Fading Mechanisms in Ni-Rich Single-Crystal and Polycrystalline Cathodes",
       "year": "2022",
       "citations": 1,
       "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:ZeXyd9-uunAC"
-    },
-    {
-      "title": "Sodium‐Ion Batteries: Understanding the Capacity Fading Mechanisms of O3‐Type Na[Ni0.5Mn0.5]O2 Cathode for Sodium‐Ion Batteries (Adv. Energy Mater. 37 …",
-      "year": "2020",
-      "citations": 1,
-      "scholar_link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=3pg8AjQAAAAJ&pagesize=100&citation_for_view=3pg8AjQAAAAJ:YOwf2qJgpHMC"
     },
     {
       "title": "Ultrathin Aluminum–Air Batteries via Hygroscopic Electrolytes for Continuous Operation of Imperceptible On‐Skin Electronics (Adv. Energy Mater. 39/2026)",
